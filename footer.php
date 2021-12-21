@@ -35,8 +35,8 @@
 </div><!-- /.row -->
 </div><!-- /.container -->
 
-    <footer id="" class="col-lg-12 p-lg-0 m-lg-0 ">
-        <div class="row col-lg-12 p-0 m-0 bg-dark text-light">
+    <footer id="" class="col-lg-12 p-lg-0 m-lg-0">
+        <div class="row col-lg-12 p-0 m-0 text-light bg-dark bg-gradient">
 
             <div class="col-lg-8 m-lg-0 p-lg-6">
                 <p> <?php echo $email; ?> </br>

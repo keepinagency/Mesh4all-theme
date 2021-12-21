@@ -2,9 +2,9 @@
 /*** Plantilla para el home CONTÁCTANOS***/    
    
 ?>
-<section class="seccontacto row justify-content-lg-center" id="seccontacto">
+<section class="seccontacto row justify-content-lg-center bg-dark p-lg-0 m-lg-0" id="seccontacto">
     
-    <div class="col-lg-5 row justify-content-between rounded p-lg-3">
+    <div class="col-lg-5 row justify-content-between rounded p-lg-3 text-light">
         <div class="col-lg-12">
             CONTÁCTANOS
         </div>
@@ -15,7 +15,7 @@
             width="400" height="300" style="border:0; border-radius: 40px;" allowfullscreen="" loading="lazy">
         </iframe>
     </div>
-    <div class="col-lg-5 p-lg-3">
+    <div class="col-lg-5 p-lg-3 text-light">
         <form role="form" method="POST" action="">
             <div class="row">
                 <div class="form-group col-lg-12">

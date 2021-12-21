@@ -7,8 +7,9 @@
    
 ?>
 
-    <div class="row col-12 bg-danger container-fluid mt-3 pt-3 pb-3 p-0 m-0 pl-4 pr-4 mb-lg-3 col-lg-12 p-lg-5 ">
-
+    <div class="row container-fluid col-lg-12 p-lg-5 m-lg-0 bg-dark">
+       
+        <!--video src="./backdropMesh.mp4" width="640" height="480"></video-->
         <div class="text-unete text-left col-lg-6">
             <?php echo $titulo; ?>
         </div>
