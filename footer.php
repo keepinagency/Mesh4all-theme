@@ -35,10 +35,10 @@
 </div><!-- /.row -->
 </div><!-- /.container -->
 
-    <footer id="" class="col-lg-12 p-lg-0 m-lg-0">
+    <footer id="" class="col-lg-12 pr-lg-5 p-lg-0 m-lg-0">
         <div class="row col-lg-12 p-0 m-0 text-light bg-dark bg-gradient">
-
-            <div class="col-lg-8 m-lg-0 p-lg-6">
+            <div class="col-lg-1">&nbsp</div>
+            <div class="col-lg-6 m-lg-0 p-lg-0 align-self-center">
                 <p> <?php echo $email; ?> </br>
                     <?php echo $phonep; ?></br>
                     <?php echo $phones; ?></br>
@@ -64,23 +64,7 @@
                     <a href="<?php echo $urlthereboot;?>"><?= $thereboot;?></a></br>
                 </p>
             </div>
-            <!--div class="col-12 footer-linea mb-3 mt-5"></div-->
-            <!--SOCIAL MEDIA-->       
-            <!--div class="footer-social col-lg-3 p-lg-0 m-lg-0 justify-content-lg-start col-12 d-flex justify-content-center align-items-center">
-                <a href="<?php echo $url_int; ?>" target="_blank" class="pr-lg-3 mr-1 px-1">
-                    <img src="<?php echo $instalogo; ?>" alt="" id="" class="intalogo">
-                </a>
-                <a href="<?php echo $url_fbk; ?>" target="_blank" class="pr-lg-3 px-1">
-                    <img src="<?php echo $faceblogo;?>" alt="" id="" class="faceblogo">
-                </a>
-                <a href="<?php echo $url_twi;?> " target="_blank" class="pr-lg-3 px-1">
-                    <img src="<?php echo $twittlogo;?>" alt="" id="" class="twittlogo">
-                </a>
-            </div>
-            <div class="col-3">
-                &nbsp;
-            </div-->
-            
+            <div class="col-lg-1">&nbsp</div>
             <!--MENÚ-->
             <!--div class="col-12 p-0 m-0 col-lg-4 p-lg-0 m-lg-0 footer-menu">
                 <nav class="navbar col-12 d-flex justify-content-center p-0 m-0 d-flex-lg justify-content-lg-end">
@@ -98,13 +82,9 @@
                     ?>
                 </nav>
             </div-->
-            <!--DIR URL-->
-            <!--div class="footer-by col-lg-2 p-lg-0 m-lg-0 col-12 d-flex justify-content-lg-end justify-content-center align-items-center">
-                © 2020, creado por&nbsp; <a class="footer-link" href="https://www.keepinagency.com" target="_blank" >TURPIAL DEV 2021</a> 
-            </div-->
         </div>
         <div class="col-lg-12 pt-lg-3 copyright d-flex justify-content-lg-center">
-            <p><?php echo $copyright; ?></p>
+            <p class="text-dark fw-bold fs-5 text"><?php echo $copyright; ?></p>
         </div>
     </footer>
     <?php wp_footer();?>
