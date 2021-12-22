@@ -1,25 +1,33 @@
 <?php 
 /*** Plantilla para el home ÚNETE***/    
 
-    $titulo = get_option( 'home-título', '' );
-    $txtbtn = get_option( 'txt-btn', '' );
-    $urlbtn = get_option('url-btn', '');
+$titulo = get_option( 'home-título', '' );
+$txtbtn = get_option( 'txt-btn', '' );
+$urlbtn = get_option('url-btn', '');
    
 ?>
 
-    <div class="row container-fluid col-lg-12 p-lg-5 m-lg-0 bg-dark">
-       
-        <!--video src="./backdropMesh.mp4" width="640" height="480"></video-->
-        <div class="text-unete text-left col-lg-6">
-            <?php echo $titulo; ?>
-        </div>
+        <div class="container-unete row container-fluid col-lg-12 p-lg-0 m-lg-0 mt-lg-3"
+            style="background: right top no-repeat url(<?= mesh4all_IMG.'mesh-01-wlogo-600h2.png'?>); z-index:2;">
 
-        <div class="cta-unete rounded col-lg-12"> 
-            <a href="<?php $urlbtn; ?>" class="">
-                <a type="button" class="btn-unete btn btn-light rounded-pill pt-lg-2 pb-lg-2 w-25" href="<?=$urlbtn;?>">
-                    <?php echo $txtbtn;?>
-                </a> 
-            </a>
-        </div>
+            <div class="text-unete text-left align-bottom col-lg-12 m-lg-0"><!-- border border-danger -->
+                <div class="p-0 m-0">
+                    <?php 
+                    if (!empty($titulo)){
+                        echo $titulo;
+                    }else{
+                        echo "ÚNETE A <br> LA RED MESH";
+                    } ?>
+                </div>
+                <div class="cta-unete col-lg-12 p-0 m-0 "><!-- border border-sucess --> 
+                    <a href="<?php $urlbtn; ?>" >
+                        <a type="button" class="btn-unete btn btn-light rounded-pill pt-lg-2 pb-lg-2 w-25" href="<?=$urlbtn;?>">
+                            <?php echo $txtbtn;?>
+                        </a> 
+                    </a>
+                </div>
+            </div>
+            
 
-    </div>
+        </div>
+    </div><!-- overheader -->
