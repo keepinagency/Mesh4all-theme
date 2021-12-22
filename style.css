@@ -34,11 +34,20 @@ WordPress Available:  yes
    font-style: normal;
 }
 
+.links {
+  text-decoration: none;
+  color: #f8f9fa !important;
+}
+
 body {
     font-size: 16px;
     background-color: #000408;
     font-family: 'Gotham-Book';
     color: #fff !important;
+}
+
+h1{
+  font-family: 'Gotham-Bold';
 }
 
 /*
@@ -142,4 +151,19 @@ Unete
 .btn-unete{
   color: #494747;
   z-index: 2;
+}
+
+/*
+Services
+*/
+.container-slider{
+  height: 600px;
+}
+
+.carousel{
+  height: 100%;
+}
+
+.item{
+  height: 100%;
 }
