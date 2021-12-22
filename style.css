@@ -41,6 +41,10 @@ body {
     color: #fff !important;
 }
 
+h1{
+  font-family: 'Gotham-Bold';
+}
+
 /*
 header
 */
@@ -95,4 +99,19 @@ Unete
 .btn-unete{
   color: #494747;
   z-index: 2;
+}
+
+/*
+Services
+*/
+.container-slider{
+  height: 600px;
+}
+
+.carousel{
+  height: 100%;
+}
+
+.item{
+  height: 100%;
 }
