@@ -45,7 +45,7 @@ body {
 header
 */
 .overheader{
-  height: 600px;
+  height: 650px;
   position: relative;
 }
 
@@ -78,6 +78,7 @@ Unete
 .container-unete{
   background-color: transparent;
   background-position: right;
+  height: 550px;
 }
 .text-unete{
   font-size: 5em;
