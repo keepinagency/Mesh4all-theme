@@ -34,6 +34,11 @@ WordPress Available:  yes
    font-style: normal;
 }
 
+.links {
+  text-decoration: none;
+  color: #f8f9fa !important;
+}
+
 body {
     font-size: 16px;
     background-color: #000408;

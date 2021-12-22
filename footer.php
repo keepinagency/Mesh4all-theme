@@ -46,22 +46,22 @@
             </div>
             <div class="col-lg-2">
                 <p>
-                    <a href="<?php echo $urlsocial;?>"><?= $social;?></a></br>
-                    <a href="<?php echo $urlgithub;?>"><?= $github;?></a></br>
-                    <a href="<?php echo $urlmedium;?>"><?= $medium;?></a></br>
-                    <a href="<?php echo $urltwitter;?>"><?= $twitter;?></a></br>
-                    <a href="<?php echo $urlyoutube;?>"><?= $youtube;?></a></br>
-                    <a href="<?php echo $urldevforum;?>"><?= $devforum;?></a></br>
+                    <a class="links" href="<?php echo $urlsocial;?>"><?= $social;?></a></br>
+                    <a class="links" href="<?php echo $urlgithub;?>"><?= $github;?></a></br>
+                    <a class="links" href="<?php echo $urlmedium;?>"><?= $medium;?></a></br>
+                    <a class="links" href="<?php echo $urltwitter;?>"><?= $twitter;?></a></br>
+                    <a class="links" href="<?php echo $urlyoutube;?>"><?= $youtube;?></a></br>
+                    <a class="links" href="<?php echo $urldevforum;?>"><?= $devforum;?></a></br>
                 </p>
             </div>
-            <div class="col-lg-2 ">
+            <div class="col-lg-2">
                 <p>
-                    <a href="<?php echo $urldevdiscord;?>"><?= $devdiscord;?></a></br>
-                    <a href="<?php echo $urltelegram;?>"><?= $telegram;?></a></br>
-                    <a href="<?php echo $urllinkedin;?>"><?= $linkedin;?></a></br>
-                    <a href="<?php echo $urlreddit;?>"><?= $reddit;?></a></br>
-                    <a href="<?php echo $urlfacebook;?>"><?= $facebook;?></a></br>
-                    <a href="<?php echo $urlthereboot;?>"><?= $thereboot;?></a></br>
+                    <a class="links"  href="<?php echo $urldevdiscord;?>"><?= $devdiscord;?></a></br>
+                    <a class="links" href="<?php echo $urltelegram;?>"><?= $telegram;?></a></br>
+                    <a class="links" href="<?php echo $urllinkedin;?>"><?= $linkedin;?></a></br>
+                    <a class="links" href="<?php echo $urlreddit;?>"><?= $reddit;?></a></br>
+                    <a class="links" href="<?php echo $urlfacebook;?>"><?= $facebook;?></a></br>
+                    <a class="links" href="<?php echo $urlthereboot;?>"><?= $thereboot;?></a></br>
                 </p>
             </div>
             <!--div class="col-12 footer-linea mb-3 mt-5"></div-->
