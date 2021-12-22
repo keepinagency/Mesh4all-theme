@@ -31,13 +31,48 @@ font-weight: normal;
 color: #333;
 }*/
 
+.unete {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* The following will size the video to fit the full container. Not necessary, just nice.*/
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 0;
+}
 .text-unete{
-  font-size: 120px;
-  color: rgb(237, 245, 242);
+  position: relative;
+  z-index: 1;
+  font-size: 118px;
+  color: #f1f1f1;
+}
+.imagen-unete{
+  position: relative;
+  z-index: 1;
 }
 /*.cta-unete{
-  background-color: blue;
-}*/
+  position: relative;
+  z-index: 1;
+}
 .btn-unete{
- color: #494747;
+  position: relative;
+  z-index: 1;
+}*/
+.sec-nosotros{
+  width: 100%;
+  height: 100vh;
+}
+
+.copyright {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);  
 }

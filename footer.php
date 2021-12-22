@@ -103,7 +103,7 @@
                 © 2020, creado por&nbsp; <a class="footer-link" href="https://www.keepinagency.com" target="_blank" >TURPIAL DEV 2021</a> 
             </div-->
         </div>
-        <div class="col-lg-12 d-flex justify-content-lg-center">
+        <div class="col-lg-12 pt-lg-3 copyright d-flex justify-content-lg-center">
             <p><?php echo $copyright; ?></p>
         </div>
     </footer>
