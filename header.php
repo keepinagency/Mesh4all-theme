@@ -9,7 +9,7 @@
     </head>
     <body <?php body_class();?> class="p-0 m-0">
         <?php wp_body_open();?>
-<div class="container m-auto p-0 m-0 h-100">
+<div class="container m-auto p-0 m-0 h-100 d-none d-lg-block">
     <!-- 
         overheader: contenedor de todo el header incluyendo ÚNETE
                     El div cierra en Unete
