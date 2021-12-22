@@ -5,6 +5,8 @@ require_once('class-wp-bootstrap-navwalker.php');
 /*Definicion de rutas TEMP_PARTS*/
 define( 'mesh4all_VERSION', '0.0.1' );
 define( 'mesh4all_TEMP_PARTS', trailingslashit( get_template_directory() ) . 'temp_parts/' );
+define( 'mesh4all_IMG', trailingslashit( get_template_directory_uri() ) . 'img/' );
+
 
 /*Soporte para Titulos, Imagen destacada y logo*/
 function mesh4all_setup(){
@@ -12,7 +14,7 @@ function mesh4all_setup(){
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'custom-logo', array(
 		'height'      => 100,
-		'width'       => 400,
+		'width'       => 434,
 		'flex-height' => false,
 		'flex-width'  => false,
 		'header-text' => array( 'site-title', 'site-description'),

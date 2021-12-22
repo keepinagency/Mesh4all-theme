@@ -10,28 +10,57 @@ Text Domain: Mesh4all
 WordPress Available:  yes
 */
 
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('fonts/Gotham/Gotham-Bold.eot'); /* IE9 Compat Modes ---*/
+  src: url('fonts/Gotham/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 ---- */
+     url('fonts/Gotham/Gotham-Bold.woff') format('woff'), /* Modern Browsers ----- */
+     url('fonts/Gotham/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS  LISTO */
+     url('fonts/Gotham/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS ---- */
+     ;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('fonts/Gotham/Gotham-Book.eot'); /* IE9 Compat Modes ---*/
+  src: url('fonts/Gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 ---- */
+     url('fonts/Gotham/Gotham-Book.woff') format('woff'), /* Modern Browsers ----- */
+     url('fonts/Gotham/Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS  LISTO */
+     url('fonts/Gotham/Gotham-Book.svg#svgFontName') format('svg'); /* Legacy iOS ---- */
+     ;
+   font-weight: 400;
+   font-style: normal;
+}
+
 body {
     font-size: 16px;
-    background-color: #f0f0f0;
-    /*padding: 1rem;*/
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto', sans-serif;
-  }
+    background-color: #000408;
+    font-family: 'Gotham-Book';
+    color: #fff !important;
+}
 
 /*
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-margin-top: 0;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: normal;
-color: #333;
-}*/
+header
+*/
+.overheader{
+  height: 650px;
+  position: relative;
+}
 
-.unete {
+#bgVideoHome {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit:cover;
+  z-index: 0;
+}
+
+.container-logo{
+  border-right: white solid 1px;
+}
+/*.unete {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -41,7 +70,7 @@ color: #333;
   position: absolute;
   left: 50%;
   top: 50%;
-  /* The following will size the video to fit the full container. Not necessary, just nice.*/
+  The following will size the video to fit the full container. Not necessary, just nice.
   min-width: 100%;
   min-height: 100%;
   -webkit-transform: translate(-50%,-50%);
@@ -60,7 +89,7 @@ color: #333;
   position: relative;
   z-index: 1;
 }
-/*.cta-unete{
+.cta-unete{
   position: relative;
   z-index: 1;
 }
@@ -68,6 +97,8 @@ color: #333;
   position: relative;
   z-index: 1;
 }*/
+
+
 .sec-nosotros{
   width: 100%;
   height: 100vh;
@@ -75,4 +106,39 @@ color: #333;
 
 .copyright {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);  
+}
+
+.imglogo{
+  height:40px;
+  padding-right: 20px;
+}
+
+.menu{
+  /*padding-left: 40px;*/
+  
+}
+
+/*
+Unete
+*/
+.container-unete{
+  background-color: transparent;
+  background-position: right;
+  height: 550px;
+}
+.text-unete{
+  font-size: 5em;
+  font-family: 'Gotham-Bold';
+  color: rgb(237, 245, 242);
+  z-index: 1;
+  padding-left: 15%;
+  padding-top: 5%;
+  line-height: 1em;
+}
+.cta-unete{
+  z-index: 2;
+}
+.btn-unete{
+  color: #494747;
+  z-index: 2;
 }
