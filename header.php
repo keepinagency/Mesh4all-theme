@@ -9,16 +9,18 @@
     </head>
     <body <?php body_class();?> class="p-0 m-0">
         <?php wp_body_open();?>
-<div class="container m-auto p-0 m-0 h-100 d-none d-lg-block">
+<div class="container-fluid m-auto p-0 m-0 h-100 d-none d-lg-block">
     <!-- 
         overheader: contenedor de todo el header incluyendo ÚNETE
                     El div cierra en Unete
     -->
     <div class="overheader p-0 m-0 row "><!-- border border-warning-->
         <!-- The video -->
-        <video autoplay muted loop id="bgVideoHome" class="p-0 m-0">
+        <video autoplay muted loop id="bgVideoHome" class="p-0 m-0" style="max-width:100%; height: auto;">
             <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
         </video>
+        <img src="<?= mesh4all_IMG.'mesh-01_full-hd2.png'?>" alt="Mesh4All" class="p-0 m-0"
+                style="z-index:4; height: auto; max-width:100%; position:absolute;">
         <div class="header p-0 pt-4 m-0 mt-3 row"> <!-- border border-warning  -->
             
             <nav class="navbar navbar-dark bg-transparent  col-12 p-0 m-0"> <!-- border border-warning  -->

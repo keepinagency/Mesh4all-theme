@@ -4,13 +4,20 @@
 $titulo = get_option( 'home-título', '' );
 $txtbtn = get_option( 'txt-btn', '' );
 $urlbtn = get_option('url-btn', '');
+
+/*
+mesh-01-wlogo-500h2
+
+background: right top no-repeat url(<?= mesh4all_IMG.'mesh-01_full.png'?>); z-index:2;
+
+*/
    
 ?>
 
-        <div class="container-unete row container-fluid col-lg-12 p-lg-0 p-lg-3 m-lg-0 mt-lg-3"
-            style="background: right bottom no-repeat url(<?= mesh4all_IMG.'mesh-01-wlogo-500h2.png'?>); z-index:2;">
-
-            <div class="text-unete text-left align-bottom col-lg-12 m-lg-0">
+        <div class="container-unete row container-fluid col-lg-12 
+                    p-lg-0 p-lg-3 m-lg-0 mt-lg-3 border border-warning h-100" 
+              style="position:relative;">
+            <div class="text-unete text-left align-bottom col-lg-8 m-lg-0">
                 <div class="p-0 m-0 ">
                     &nbsp;
                 </div>
@@ -30,7 +37,5 @@ $urlbtn = get_option('url-btn', '');
                     </a>
                 </div>
             </div>
-            
-
         </div>
     </div><!-- overheader -->
