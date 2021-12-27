@@ -10,13 +10,13 @@ mesh-01-wlogo-500h2
 
 background: right top no-repeat url(<?= mesh4all_IMG.'mesh-01_full.png'?>); z-index:2;
 
+p-lg-0 p-lg-3 
 */
    
 ?>
 
-        <div class="container-unete row container-fluid col-lg-12 
-                    p-lg-0 p-lg-3 m-lg-0 mt-lg-3 border border-warning h-100" 
-              style="position:relative;">
+        <div class="container-unete col-lg-12 m-lg-0 mt-lg-0">
+            
             <div class="text-unete text-left align-bottom col-lg-8 m-lg-0">
                 <div class="p-0 m-0 ">
                     &nbsp;
@@ -36,6 +36,9 @@ background: right top no-repeat url(<?= mesh4all_IMG.'mesh-01_full.png'?>); z-in
                         </a> 
                     </a>
                 </div>
+            </div>
+            <div class="col-lg-4 p-0 m-0">
+                &nbsp;
             </div>
         </div>
     </div><!-- overheader -->
