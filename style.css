@@ -53,16 +53,23 @@ h1{
 /*
 header
 */
-.overheader{
-  /*padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+#menu-header{
+  width:100%;
+  z-index: 100;
+  font-family: 'Gotham-Bold';
 }
 
-.header{
-  /*
-  position: absolute;
-  top:0;
-  left:0;
-  */
+.menu-item{
+  padding-left: 3%;
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: orangered !important;
+  font-weight:800;
 }
 
 #bgVideoHome {
@@ -78,8 +85,8 @@ header
 }
 
 .imglogo{
-  height:40px;
-  padding-right: 20px;
+  height:3vw;
+  padding-right: 2vw;
 }
 
 

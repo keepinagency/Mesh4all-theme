@@ -62,7 +62,7 @@
                             'container'       => 'div',
                             'container_class' => 'collapse navbar-collapse d-lg-block navbar-expand-lg pl-lg-2',
                             'container_id'    => 'menumesh',
-                            'items_wrap'      => '<ul id="%1$s" class="%2$s navbar-nav mt-0 mt-lg-0 align-content-center">%3$s</ul>',
+                            'items_wrap'      => '<ul id="%1$s" class="%2$s mt-0 mt-lg-0 align-content-center">%3$s</ul>',
                             'theme_location'  => 'header-menu',
                             'menu_class' => 'nav navbar-nav',
                             'fallback_cb' => 'wp_bootstrap_navwalker::fallback', 
