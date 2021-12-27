@@ -6,7 +6,7 @@
     
     <div class="col-lg-5 row justify-content-between rounded p-lg-3 text-light">
         <div class="col-lg-12">
-            CONTÁCTANOS
+            <h1>CONTÁCTANOS</h1>
         </div>
         <div>
             <p>C/ wisi enim ad minim veniam, 23 </br>23654</p>
@@ -18,29 +18,29 @@
     <div class="col-lg-5 p-lg-3 text-light">
         <form role="form" method="POST" action="">
             <div class="row">
-                <div class="form-group col-lg-12">
+                <div class="form-group col-lg-12 mt-lg-3">
                     <label for="email">NOMBRE:</label>
-                    <input type="text" class="form-control mt-lg-3 mb-lg-3" id="nombre" style="border-radius: 10px;">
+                    <input type="text" class="form-control mb-lg-3" id="nombre" style="border-radius: 10px;">
                 </div>
-                <div class="form-group col-lg-12">
+                <div class="form-group col-lg-12 mt-lg-3">
                     <label for="email">EMAIL:</label>
-                    <input type="email" class="form-control mt-lg-3 mb-lg-3" id="email" style="border-radius: 10px;">
+                    <input type="email" class="form-control mb-lg-3" id="email" style="border-radius: 10px;">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="form-group col-lg-4 mt-lg-3">
                     <label for="tel">TELÉFONO:</label>
-                    <input type="tel" class="form-control mt-lg-3 mb-lg-3" id="tel" style="border-radius: 10px;">
+                    <input type="tel" class="form-control mb-lg-3" id="tel" style="border-radius: 10px;">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="form-group col-lg-4 mt-lg-3">
                     <label for="ciud">CIUDAD:</label>
-                    <input type="text" class="form-control mt-lg-3 mb-lg-3" id="ciudad" style="border-radius: 10px;">
+                    <input type="text" class="form-control mb-lg-3" id="ciudad" style="border-radius: 10px;">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="form-group col-lg-4 mt-lg-3">
                     <label for="ciu">PAÍS:</label>
-                    <input type="text" class="form-control mt-lg-3 mb-lg-3" id="pais" style="border-radius: 10px;">
+                    <input type="text" class="form-control mb-lg-3" id="pais" style="border-radius: 10px;">
                 </div>
-                <div class="form-group col-lg-12">
+                <div class="form-group col-lg-12 mt-lg-3">
                     <label for="ciu">MENSAJE:</label>
-                    <textarea name="textarea" rows="3" cols="20" class="form-control mt-lg-3 mb-lg-3" id="mensaje" style="border-radius: 10px;"></textarea>
+                    <textarea name="textarea" rows="4" cols="20" class="form-control mb-lg-3" id="mensaje" style="border-radius: 10px;"></textarea>
                 </div>
                 <!--button type="submit" class="btn btn-info">Submit</button-->
             </div>      
