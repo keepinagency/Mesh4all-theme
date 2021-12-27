@@ -53,9 +53,23 @@ h1{
 /*
 header
 */
-.overheader{
-  height: 650px;
-  position: relative;
+nav .navbar-nav{
+  width:100%;
+  z-index: 100;
+  font-family: 'Gotham-Bold';
+}
+
+.menu-item{
+  padding-left: 3%;
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: orangered !important;
+  font-weight:800;
 }
 
 #bgVideoHome {
@@ -63,70 +77,18 @@ header
   height: 100%;
   position: absolute;
   object-fit:cover;
-  z-index: 0;
+  z-index: -1;
 }
 
 .container-logo{
   border-right: white solid 1px;
 }
-/*.unete {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-.video {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  The following will size the video to fit the full container. Not necessary, just nice.
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 0;
-}
-.text-unete{
-  position: relative;
-  z-index: 1;
-  font-size: 118px;
-  color: #f1f1f1;
-}
-.imagen-unete{
-  position: relative;
-  z-index: 1;
-}
-.cta-unete{
-  position: relative;
-  z-index: 1;
-}
-.btn-unete{
-  position: relative;
-  z-index: 1;
-}*/
-
-
-.sec-nosotros{
-  width: 100%;
-  height: 100vh;
-}
-
-.copyright {
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-    font-size: 16px; 
-}
 
 .imglogo{
-  height:40px;
-  padding-right: 20px;
+  height:3vw;
+  padding-right: 2vw;
 }
 
-.menu{
-  /*padding-left: 40px;*/
-  
-}
 
 /*
 Unete
@@ -134,7 +96,7 @@ Unete
 .container-unete{
   background-color: transparent;
   background-position: right;
-  height: 550px;
+  
 }
 .text-unete{
   font-size: 5em;
@@ -142,8 +104,9 @@ Unete
   color: rgb(237, 245, 242);
   z-index: 1;
   padding-left: 15%;
-  padding-top: 5%;
+  padding-top: 15%;
   line-height: 1em;
+  height: 100%;
 }
 .cta-unete{
   z-index: 2;
@@ -154,7 +117,15 @@ Unete
 }
 
 /*
-Services
+  Nosotros
+*/
+.sec-nosotros{
+  width: 100%;
+
+}
+
+/*
+  Services
 */
 .container-slider{
   height: 600px;
@@ -218,4 +189,10 @@ Services
   border-style: solid;
   border-color: #f8f9fa;
   border-radius: 8px !important;
+/*
+  Footer
+*/
+.copyright {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  font-size: 16px; 
 }
