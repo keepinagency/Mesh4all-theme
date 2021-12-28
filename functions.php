@@ -7,6 +7,63 @@ define( 'mesh4all_VERSION', '0.0.1' );
 define( 'mesh4all_TEMP_PARTS', trailingslashit( get_template_directory() ) . 'temp_parts/' );
 define( 'mesh4all_IMG', trailingslashit( get_template_directory_uri() ) . 'img/' );
 
+function m4alltheme_metboxes() {
+	add_meta_box( 'metaboxm4all', 
+                  'Campos adicionales para uso del Mesh4All-Theme',
+                  'm4alltheme_metbox_content', 
+                  'page', 
+                  'normal', 
+                  'high' );
+}
+add_action( 'add_meta_boxes', 'm4alltheme_metboxes' );
+add_action( 'save_post', 'm4alltheme_metbox_save' );
+
+function m4alltheme_metbox_content( $post ) {
+    $values         = get_post_custom( $post->ID );
+    $urlbg_saved    = $values['urlbg'][0] ;
+    /*
+    print_r($values);
+    echo "<br>";
+    print_r($urlbg_saved);
+    */
+    ?>
+    <p>
+        <label for="urlbg">Url de la imagen de fondo:</label>
+        <input type="text" 
+               name="urlbg" id="urlbg" 
+               value="<?php echo esc_html( $urlbg_saved ); ?>" 
+               style="width:100%;"/>
+    </p>
+    <?php
+}
+
+function m4alltheme_metbox_save( $post_id ) {
+    // Ignoramos los auto guardados.
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+        return;
+    }
+
+    // Si no está el nonce declarado antes o no podemos verificarlo no seguimos.
+    /*
+    if ( ! isset( $_POST['bf_metabox_nonce'] ) || ! wp_verify_nonce( $_POST['bf_metabox_nonce'], 'dariobf_metabox_nonce' ) ) {
+        return;
+    }
+    */
+
+    // Si el usuario actual no puede editar entradas no debería estar aquí.
+    if ( ! current_user_can( 'edit_post' ) ) {
+        return;
+    }
+
+    // AHORA es cuando podemos guardar la información.
+
+    // Nos aseguramos de que hay información que guardar.
+    if ( isset( $_POST['urlbg'] ) ) {
+        update_post_meta( $post_id, 'urlbg', wp_kses( $_POST['urlbg'], $allowed ) );
+    }
+}
+
+
 
 /*Soporte para Titulos, Imagen destacada y logo*/
 function mesh4all_setup(){
