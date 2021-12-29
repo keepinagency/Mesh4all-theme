@@ -25,7 +25,7 @@
                 style="z-index:-1;  max-width:100%; position:absolute; bottom:0;">
         
         <!-- mesh-01_full-hd2 -->
-        <img src="<?= mesh4all_IMG.'home-meshback.png'?>" alt="Mesh4All" class="p-0 m-0"
+        <img src="<?= mesh4all_IMG.'home-meshback-logo.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; top:0;">
 
         <div class="header p-0 pt-4 m-0 mt-3"> <!-- border border-warning  -->
