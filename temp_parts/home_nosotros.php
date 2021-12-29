@@ -11,7 +11,7 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
 
 
 <div class="sec-nosotros p-0 m-0">
-    <img src="<?= mesh4all_IMG.'mesh-02-hd2.png'?>" alt="Mesh4All" class="p-0 m-0"
+    <img src="<?= mesh4all_IMG.'nosotros-meshback-letras.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
     <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9"

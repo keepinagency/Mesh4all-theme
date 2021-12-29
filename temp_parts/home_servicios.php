@@ -8,9 +8,9 @@ $posts_slide = new WP_Query(array(
 $i=0;
 $e=0;
 ?>
-<div class="container-slider">
+<div class="container-slider p-0 m-0">
     <!-- Contenedor de los Slider -->
-    <img src="<?= mesh4all_IMG.'services/wave-color-up-1080x1920.png'?>" alt="Mesh4All" 
+    <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
