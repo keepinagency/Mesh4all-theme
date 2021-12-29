@@ -1,4 +1,4 @@
-<section class="row soft-free mb-lg-5">
+<section class="row soft-free mb-lg-5 p-0 m-0">
   <div class="col-lg-12">
     <div class="col-lg-5 mt-lg-5 d-flex justify-content-lg-center">
       <h1 class="text-uppercase">soft-free</h1>

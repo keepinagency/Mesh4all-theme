@@ -1,30 +1,96 @@
 <?php 
-/*** Plantilla para el home SERVICIOS***/   
-$ser = new WP_Query(array(
-    'post_type' => 'post',
-    'category_name' => 'nosotros',
-    ));
+/*** Plantilla para el home NOSOTROS***/   
+$ser = new WP_Query(array('pagename' => 'nosotros'));
+
+
+/*
+style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height:100%;"
+  ratio rato-16x9
+*/
 ?>
 
-<section class="sec-nosotros row justify-content-lg-center pt-lg-5 m-lg-0">
-    <?php while ($ser->have_posts()) : $ser->the_post();?>
 
-    <div class="col-lg-7 row justify-content-between rounded p-lg-3 text-light">
+<div class="sec-nosotros p-0 m-0">
+    <img src="<?= mesh4all_IMG.'nosotros-meshback-letras.png'?>" alt="Mesh4All" class="p-0 m-0"
+                style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
-        <div class="col-lg-12">
-            <h3 class=""><?php the_title(); ?></h3>
-            <!--img src="<?php echo get_template_directory_uri() . '/img/mesh-02-500h.png'; ?>"-->
-        </div>
-    </div>
-    <div class="col-lg-4 pt-lg-5 text-light mt-lg-5">
-            <div class="col-lg-12">
-                <?php the_post_thumbnail('thumbnail');?>
+    <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9"
+        >
+        <?php 
+        if ($ser->have_posts()){
+            while ($ser->have_posts()) : $ser->the_post();?>
+                
+                <div class="row p-0 m-0">
+                    <div class="col-lg-8 row p-0 m-0">
+                        <div class="col-2 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-10 p-0 m-0 ">
+                            <h1 class="pt-5"><?php the_title(); ?></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                            <div class="col-lg-12 h-25">
+                                &nbsp;
+                            </div>
+                            <div class="col-lg-12 ">
+                                <?php
+                                    $img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
+                                ?>
+                                <img class="d-block" 
+                                    src="<?= $img_url?>" 
+                                    style="width: 8vw;"
+                                    alt="Mesh4All Logo">
+                            </div>
+                            <div class="col-lg-12 mt-lg-5 pt-lg-3">
+                                <?php the_content(); ?>
+                            </div>  
+                    </div>
+                </div>
+
+            <?php 
+            endwhile; 
+            wp_reset_postdata();
+        }else{
+            ?>
+            <div class="row p-0 m-0">
+                <div class="col-lg-8 row p-0 m-0">
+                    <div class="col-2 p-0 m-0">
+                        &nbsp;
+                    </div>
+                    <div class="col-10 p-0 m-0 ">
+                        <h1 class="pt-5">NOSOTROS</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 row">
+                        <div class="col-lg-12 h-25">
+                            &nbsp;
+                        </div>
+                        <div class="col-lg-12 ">
+                            <img class="d-block" 
+                                src="<?= mesh4all_IMG.'mesh4all-nosotros.png'?>" 
+                                style="width: 8vw;"
+                                alt="Mesh4All Logo">
+                        </div>
+                        <div class="col-lg-12 mt-lg-5 pt-lg-3 pr-lg-3">
+                            <p>
+                                Lorem ipsum dolor sit amet,<br>
+                                consectetur adipiscing elit.
+                            </p>
+                            <p>
+                                Sed auctor faucibus quam, <br>
+                                ac egestas ex lobortis vitae. <br>
+                                Interdum et malesuada fames ac <br>
+                                ante ipsum primis in faucibus. <br>
+                                Aenean urna purus, consequat ut <br>
+                                leo in, laoreet feugiat ligula.
+                            </p>
+                        </div>  
+                </div>
             </div>
-            <div class="col-lg-12 mt-lg-5">
-                <p><?php the_content(); ?></p>
-            </div>  
+            <?php
+        }
+        ?>
     </div>
-
-    <?php endwhile; wp_reset_postdata();?>
-</section>
+</div>
 

@@ -35,7 +35,7 @@
 </div><!-- /.row -->
 </div><!-- /.container -->
 
-    <footer id="" class="col-lg-12 pr-lg-5 p-lg-0 m-lg-0">
+    <footer id="" class="col-lg-12 pr-lg-5 p-0 m-0">
         <div class="row col-lg-12 p-0 m-0 text-light bg-dark bg-gradient">
             <div class="col-lg-1">&nbsp</div>
             <div class="col-lg-6 m-lg-0 p-lg-0 align-self-center">

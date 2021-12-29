@@ -2,7 +2,7 @@
 /*** Plantilla para el home CONTÁCTANOS***/    
    
 ?>
-<section class="seccontacto row justify-content-lg-center p-lg-0 m-lg-0" id="seccontacto">
+<section class="seccontacto row justify-content-lg-center p-0 m-0" id="seccontacto">
     
     <div class="col-lg-5 row justify-content-between rounded p-lg-3 text-light">
         <div class="col-lg-12">
