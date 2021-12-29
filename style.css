@@ -125,6 +125,56 @@ Unete
 */
 
 
+/*****************
+  CONTÁCTANOS FORM
+******************/
+
+.form-group input {
+  background-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+}
+.form-group textarea {
+  background-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+}
+
+/**************
+  SOFT-FREE
+**************/
+.soft-free-nav{
+  border-color: #d13838 !important;
+}
+.soft-free p {
+  text-align: justify;
+  margin: 20px 30px 0px 20px;
+}
+.soft-free a{
+  text-transform: uppercase;
+  text-align: center;
+  color: #515355;
+  padding: 20px 25px 15px 25px;
+  margin: 0px 20px 0px 30px;
+  background-color: #f8f9fa !important;
+  border-radius: 15px !important;
+  width: 25%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+.soft-free .active{
+  text-transform: uppercase;
+  color: #f8f9fa;
+  background-color: #000000 !important;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-radius: 8px !important;
 /*
   Footer
 */
