@@ -472,7 +472,7 @@ function custom_mesh4all_register( $wp_customize ) {
     /******* SECCIÓN PARA COPY RIGHT FOOTER *********
     ************************************************/
     $wp_customize->add_section( 'copyright', array(
-        'title' => __( 'Opciones copy right', 'textdomain' ),
+        'title' => __( 'Opciones copyright', 'textdomain' ),
         'panel' => 'mesh4all',
         'priority' => 4,
     ));
@@ -483,7 +483,7 @@ function custom_mesh4all_register( $wp_customize ) {
         'capability' => 'edit_theme_options',
     ));
     $wp_customize->add_control( 'copyright', array(
-        'label' => __( 'Ingrese copy right', 'textdomain' ),
+        'label' => __( 'Ingrese copyright', 'textdomain' ),
         'section' => 'copyright',
         'priority' => 1,
         'type' => 'textarea',

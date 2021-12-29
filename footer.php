@@ -84,7 +84,12 @@
             </div-->
         </div>
         <div class="col-lg-12 pt-lg-3 copyright d-flex justify-content-lg-center">
-            <p class="text-dark fw-bold fs-5 text"><?php echo $copyright; ?></p>
+            <p class="text-dark fw-bold fs-5 text">
+                    <?php if (empty($copyright)) 
+                        { echo "TURPIAL DEV 2021"; }
+                        else{ 
+                            echo $copyright;} ?>
+            </p>
         </div>
     </footer>
     <?php wp_footer();?>
