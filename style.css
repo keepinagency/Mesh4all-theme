@@ -182,3 +182,27 @@ Unete
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   font-size: 16px; 
 }
+
+/*
+  Herramientas de uso general
+*/
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.flipimg {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.flipandrotate180 {
+  -webkit-transform: scaleX(-1) rotate(180deg);
+  -moz-transform: rotate(180deg) rotate(180deg);
+  -ms-transform: rotate(180deg) rotate(180deg);
+  -o-transform: rotate(180deg) rotate(180deg);
+  transform: scaleX(-1) rotate(180deg);
+}

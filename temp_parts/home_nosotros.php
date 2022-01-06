@@ -10,10 +10,15 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
 ?>
 
 
-<div class="sec-nosotros p-0 m-0">
+<div class="sec-nosotros p-0 m-0" id="nosotros">
+    <!-- border transparente arriba -->
+    <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
+                class="p-0 m-0 rotateimg180"
+                style="z-index:-5; height:auto; max-width:100%; position:absolute;">
+
     <img src="<?= mesh4all_IMG.'nosotros-meshback-letras.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
-                style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
+                style="height: auto; max-width:100%; position:absolute; z-index:-4">
 
     <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9"
         >
@@ -94,4 +99,3 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
         ?>
     </div>
 </div>
-

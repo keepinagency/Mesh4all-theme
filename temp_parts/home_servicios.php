@@ -8,7 +8,7 @@ $posts_slide = new WP_Query(array(
 $i=0;
 $e=0;
 ?>
-<div class="container-slider p-0 m-0">
+<div class="container-slider p-0 m-0" id="servicios">
     <!-- Contenedor de los Slider -->
     <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
@@ -17,6 +17,7 @@ $e=0;
     <div id="miCarousel" 
             class="carousel slide row ratio ratio-16x9 p-0 m-0" 
             data-ride="carousel">
+
         <div class="carousel-inner h-100 p-0 w-100">
         <?php 
         
