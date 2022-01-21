@@ -24,19 +24,19 @@
         <!-- border transparente arriba -->
         <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 rotateimg180"
-                style="z-index:0; height:auto; max-width:100%; position:absolute; top:0;">
+                style="z-index:0; height:auto; max-width:100%; position:absolute; top:10%;">
 
         <!-- border transparente abajo -->
         <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:-1;  max-width:100%; position:absolute; bottom:0;">
         
         <!-- mesh-01_full-hd2 -->
-        <img src="<?= mesh4all_IMG.'home-meshback-logo.png'?>" alt="Mesh4All" class="p-0 m-0"
+        <img src="<?= mesh4all_IMG.'home-meshback_v2.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:1; height: auto; max-width:100%; position:absolute; top:0;">
 
-        <div class="header p-0 pt-4 m-0 mt-3"> <!-- border border-warning  -->
+        <div class="header p-0 m-0"> <!-- border border-warning  -->
             
-            <nav class="navbar navbar-dark bg-transparent  col-12 p-0 m-0"> <!-- border border-warning  -->
+            <nav class="navbar navbar-dark fixed-top col-12 pt-4 pb-3"> <!-- border border-warning  -->
                 <!--Logo-->
                 <div class="container-logo col-lg-3 d-flex justify-content-end p-0 m-0">
                     <a class="navbar-brand m-0 p-0 pr-2"  href="<?php echo get_home_url(); ?>">

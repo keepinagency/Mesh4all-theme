@@ -31,7 +31,7 @@ p-lg-0 p-lg-3
                 </div>
                 <div class="cta-unete col-lg-12 p-0 m-0  "> 
                     <a href="<?php $urlbtn; ?>" >
-                        <a type="button" class="btn-unete btn btn-light rounded-pill pt-lg-2 pb-lg-2 w-25" href="<?=$urlbtn;?>">
+                        <a type="button" class="btn-unete btn btn-light py-2 w-25" href="<?=$urlbtn;?>">
                             <?php echo $txtbtn;?>
                         </a> 
                     </a>

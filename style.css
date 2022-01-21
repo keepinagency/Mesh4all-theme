@@ -59,17 +59,50 @@ nav .navbar-nav{
   font-family: 'Gotham-Bold';
 }
 
+.navbar {
+  background-color: black;
+}
+
 .menu-item{
   padding-left: 3%;
 }
 
 nav .navbar-nav li a{
-  color: white !important;
+  color: #ddd !important;
+  
 }
 
 nav .navbar-nav li a:hover{
-  color: orangered !important;
+  color: white !important;
   font-weight:800;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.dropdown-menu {
+  background-color: black;
+  position: absolute;
+  left: -0.1rem;
+  font-size: 0.8em;
+}
+
+.dropdown-menu .menu-item{
+  background-color: black;
+  text-align: right;
+  margin-left: 2.5em;
+  
+}
+
+.dropdown-menu li a{
+  border-top: white solid 1px;
+  padding:1em;
+}
+.dropdown-menu li a:hover{
+  color: white !important;
+  font-weight:800;
+  background-color: black;
 }
 
 #bgVideoHome {
@@ -99,12 +132,12 @@ Unete
   
 }
 .text-unete{
-  font-size: 5em;
+  font-size: 6em;
   font-family: 'Gotham-Bold';
   color: rgb(237, 245, 242);
   z-index: 1;
-  padding-left: 15%;
-  padding-top: 15%;
+  padding-left: 10%;
+  padding-top: 10%;
   line-height: 1em;
   height: 100%;
 }
@@ -112,8 +145,11 @@ Unete
   z-index: 2;
 }
 .btn-unete{
-  color: #494747;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
   z-index: 2;
+  border-radius: 1em;
 }
 
 /*
