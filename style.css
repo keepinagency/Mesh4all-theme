@@ -155,6 +155,16 @@ Unete
 /*
   Nosotros
 */
+.linkContent{
+  font-weight: bold;
+  color:#ddd;
+  text-decoration: none;
+}
+
+.linkContent:hover{
+  color:white;
+  text-decoration: none;
+}
 
 /*
   Services

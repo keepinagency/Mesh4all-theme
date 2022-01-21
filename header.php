@@ -21,11 +21,6 @@
             <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
         </video>
 
-        <!-- border transparente arriba -->
-        <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
-                class="p-0 m-0 rotateimg180"
-                style="z-index:0; height:auto; max-width:100%; position:absolute; top:10%;">
-
         <!-- border transparente abajo -->
         <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:-1;  max-width:100%; position:absolute; bottom:0;">
@@ -82,5 +77,9 @@
                     ?>
                 </div>
             </nav>
+            <!-- border transparente arriba -->
+            <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
+                class="p-0 m-0 rotateimg180"
+                style="z-index:0; height:auto; max-width:100%; position:absolute; top:7%">
             <!--/div-->
         </div><!-- header -->

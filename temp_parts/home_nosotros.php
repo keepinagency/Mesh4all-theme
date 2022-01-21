@@ -16,7 +16,7 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                 class="p-0 m-0 rotateimg180"
                 style="z-index:-5; height:auto; max-width:100%; position:absolute;">
 
-    <img src="<?= mesh4all_IMG.'nosotros-meshback-letras.png'?>" alt="Mesh4All" 
+    <img src="<?= mesh4all_IMG.'nosotros-meshback-v2.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
                 style="height: auto; max-width:100%; position:absolute; z-index:-4">
 
@@ -59,7 +59,100 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
             wp_reset_postdata();
         }else{
             ?>
-            <div class="row p-0 m-0">
+            <div class="row p-0 m-0" id="areaContent">
+                <div class="col-lg-12 row p-0 m-0 h-25">
+                    &nbsp;
+                </div>
+                <div class="col-lg-12 row p-0 m-0 h-75">
+                    
+                    <div class="row p-0 m-0 w-50">
+                        <div class="p-0 m-0 h-50 w-50 d-flex align-items-end">
+                            
+                            <div class="w-100 h-50 p-0 m-0 d-flex flex-row">
+                                <!-- VISION -->
+                                <div class="col-4 m-0 p-0">&nbsp;</div>
+                                <div class="col-8 m-0 p-0 
+                                            d-flex align-items-center px-3 pt-3
+                                           "><a class="linkContent" 
+                                                data-toggle="collapse" 
+                                                data-parent="#areaContent"
+                                                href="#conteVision" 
+                                                role="button" aria-expanded="false" 
+                                                aria-controls="conteMision">VISIÓN</a></div>
+                            </div>
+
+                        </div>
+
+                        <div class="h-50 w-50 pt-3 px-3">
+                            <!-- MISION -->
+                            <a class="linkContent" 
+                                data-toggle="collapse" 
+                                data-parent="#areaContent"
+                                href="#conteMision" 
+                                role="button" aria-expanded="true" 
+                                aria-controls="conteMision"
+                                onClick="">MISIÓN </a>
+                        </div>
+
+                        <div class="h-25 w-100 d-flex flex-row p-0 m-0">        
+                            <div class="col-6 m-0 p-0">&nbsp;</div>
+                            <div class="col-6 m-0 p-0 px-2
+                                        d-flex align-items-end
+                                        "><a class="linkContent" 
+                                                data-toggle="collapse" 
+                                                data-parent="#areaContent"
+                                                href="#conteValores" 
+                                                role="button" aria-expanded="true" 
+                                                aria-controls="conteValores"
+                                                onClick="">VALORES</a> <!-- VALORES --></div>
+                            
+                        </div>
+                        <div class="h-25 w-100">
+                            &nbsp;
+                        </div>
+                    </div>
+
+                    <div class="p-0 m-0 w-50 row" >
+                        <div class="col-3">
+                            &nbsp;
+                        </div>
+                        <div class="col-8 h-100">
+                            <div style="height:17%;">
+                                &nbsp;
+                            </div>
+                            <div class="px-3 collapse show multi-collapse" id="conteMision">
+                                <h4>Misión</h4>
+                                Sed auctor faucibus quam, <br>
+                                ac egestas ex lobortis vitae. <br>
+                                Interdum et malesuada fames ac <br>
+                                ante ipsum primis in faucibus. <br>
+                                Aenean urna purus, consequat ut <br>
+                                leo in, laoreet feugiat ligula.
+                            </div>
+                            <div class="px-3 collapse multi-collapse" id="conteVision">
+                                <h4>Visión</h4>
+                                Sed auctor faucibus quam, <br>
+                                ac egestas ex lobortis vitae. <br>
+                                Interdum et malesuada fames ac <br>
+                                ante ipsum primis in faucibus. <br>
+                                Aenean urna purus, consequat ut <br>
+                                leo in, laoreet feugiat ligula.
+                            </div>
+                            <div class="px-3 collapse multi-collapse" id="conteValores">
+                                <h4>Valores</h4>
+                                Sed auctor faucibus quam, <br>
+                                ac egestas ex lobortis vitae. <br>
+                                Interdum et malesuada fames ac <br>
+                                ante ipsum primis in faucibus. <br>
+                                Aenean urna purus, consequat ut <br>
+                                leo in, laoreet feugiat ligula.
+                            </div>
+                        </div>  
+                    </div>
+
+                </div>
+            </div>
+            <!--div class="row p-0 m-0">
                 <div class="col-lg-8 row p-0 m-0">
                     <div class="col-2 p-0 m-0">
                         &nbsp;
@@ -93,9 +186,21 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                             </p>
                         </div>  
                 </div>
-            </div>
+            </div-->
             <?php
         }
         ?>
     </div>
 </div>
+
+<script>
+    var links = document.getElementsByClassName('linkContent');
+
+    for (var i = 0 ; i < links.length; i++) {
+        links[i].addEventListener('click' , hideText , false ) ; 
+    }
+
+    function hideText(){
+        jQuery('.collapse').collapse('hide');
+    }
+</script>
