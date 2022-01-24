@@ -168,7 +168,7 @@ $posts = new WP_Query(array(
                                             <a href="#"></a>
                                         </div-->
                                         <a href="#opensource" class="btnopensource pb-2" >
-                                            <div class="w-100 p-0 m-0 d-inline-block pt-3 " 
+                                            <div class="w-100 p-0 m-0 d-inline-block pt-3" 
                                                 id="<?=$tagcolor?>"
                                                 style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                                         background-size:contain;
@@ -177,7 +177,7 @@ $posts = new WP_Query(array(
                                                 onmouseover="changeon(this.id);" 
                                                 onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
                                                 alt="Mesh4All Comms Buttons <?=$tagcolor?>">
-                                                <span style="color:<?=$col?>"><?php the_title(); ?></span>
+                                                <div class="w-100" style="color:<?=$col?>"><?php the_title(); ?></div>
                                             </div>
                                         </a>
                                         <?php
@@ -251,9 +251,9 @@ $posts = new WP_Query(array(
         var selant = jQuery("#btnopen_sel").val();
         //document.getElementById(selant).src='<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off.png';
         jQuery("#"+selant).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off-.png)');
-        jQuery("#"+selant+" span").css('color','white');
+        jQuery("#"+selant+" div").css('color','white');
         jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
-        jQuery("#"+idele+" span").css('color','rgb(30,30,30)');
+        jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'.png)');
         jQuery("#btnopen_sel").val(idele);
         jQuery("#cont-"+selant).hide();
@@ -263,14 +263,14 @@ $posts = new WP_Query(array(
     function changeon(idele){
         //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
         jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
-        jQuery("#"+idele+" span").css('color','rgb(30,30,30)');
+        jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'.png)');
         // bgopensource HF-pic-blue
     }
     function changeoff(idele,srcele){
         //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off.png';
         jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off-.png)');
-        jQuery("#"+idele+" span").css('color','white');
+        jQuery("#"+idele+" div").css('color','white');
         btnsel = jQuery("#btnopen_sel").val();
         if (idele == btnsel){
             //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
