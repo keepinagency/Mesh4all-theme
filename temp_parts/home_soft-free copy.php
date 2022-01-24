@@ -27,7 +27,7 @@ $var = new WP_Query(array(
       <li data-target="#mycarousel" data-slide-to="5" aria-label="Slide 6"></li>
     </ol>
     <div class="carousel-inner mt-lg-5 pt-lg-5">
-      <div class="carousel-item active pt-lg-5">
+      <div class="car carousel-item  active pt-lg-5">
         <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="pagos"><a href="#Pagos">Pagos</a></button> 
@@ -43,7 +43,7 @@ $var = new WP_Query(array(
           </p>
         </div>
       </div>
-      <div class="carousel-item pt-lg-5">
+      <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-bluemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="nopagos"><a href="#Pagos">Pagos</a></button> 
@@ -60,7 +60,7 @@ $var = new WP_Query(array(
               </p>
         </div>
       </div>
-      <div class="carousel-item pt-lg-5">
+      <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-greenmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="nopagos"><a href="#Pagos">Pagos</a></button> 
@@ -77,7 +77,7 @@ $var = new WP_Query(array(
                 </p>
         </div>
       </div>
-      <div class="carousel-item pt-lg-5">
+      <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-purplemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="nopagos"><a href="#Pagos">Pagos</a></button> 
@@ -94,7 +94,7 @@ $var = new WP_Query(array(
                 </p>
         </div>
       </div>
-      <div class="carousel-item pt-lg-5">
+      <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-redmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="nopagos"><a href="#Pagos">Pagos</a></button> 
@@ -111,7 +111,7 @@ $var = new WP_Query(array(
                 </p>
         </div>
       </div>
-      <div class="carousel-item pt-lg-5">
+      <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-orangemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
           <button class="nopagos"><a href="#Pagos">Pagos</a></button> 
