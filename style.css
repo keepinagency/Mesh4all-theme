@@ -207,10 +207,11 @@ OPEN SOURCE
   color: #ddd;
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 10%;
+  font-size: 1.2vw;
 }
 .btnopensource div span{
-  padding-left: 25%;
+  padding-left: 28%;
+  
 }
 .btnopensource:hover span{
   color:#333;
