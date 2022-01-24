@@ -24,7 +24,7 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                                 <h1 class="pt-5">OPEN SOURCE</h1>
                                 <h5 class="linkContent">HARD-FREE</h5>
                                 <h2 class="pt-5">Descarga nuestra app</h2>
-                                <p class="pt-3 pb-3">
+                                <p class="pt-3 pb-3 content-hardfree">
                                 Lorem ipsum dolor sit amet, consectetuer<br />
                                 adipiscing elit, sed diam nonummy nibh<br />
                                 euismod tincidunt ut laoreet dolore<br />

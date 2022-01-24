@@ -155,6 +155,10 @@ Unete
 /*
   Nosotros
 */
+.conteNosotros{
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+}
 .linkContent{
   font-weight: bold;
   color:#ddd;
@@ -171,7 +175,25 @@ Unete
 /*
   Services
 */
+.content-services p{
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+}
 
+.btn-vermas-serv{
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/*
+OPEN SOURCE
+*/
+.content-hardfree{
+  line-height: 1.8rem;
+  font-size: 0.8rem;
+  color:#aae;
+}
 
 /*****************
   CONTÁCTANOS FORM

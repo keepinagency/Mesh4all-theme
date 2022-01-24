@@ -121,7 +121,8 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                             <div style="height:17%;">
                                 &nbsp;
                             </div>
-                            <div class="px-4 pt-4 collapse show multi-collapse" id="conteMision">
+                            <div class="px-4 pt-4 collapse show multi-collapse
+                                        conteNosotros" id="conteMision">
                                 <h4>Misión</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>
@@ -130,7 +131,8 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                 Aenean urna purus, consequat ut <br>
                                 leo in, laoreet feugiat ligula.
                             </div>
-                            <div class="px-4 pt-4 collapse multi-collapse" id="conteVision">
+                            <div class="px-4 pt-4 collapse multi-collapse
+                                        conteNosotros" id="conteVision">
                                 <h4>Visión</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>
@@ -139,7 +141,8 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                 Aenean urna purus, consequat ut <br>
                                 leo in, laoreet feugiat ligula.
                             </div>
-                            <div class="px-4 pt-4 collapse multi-collapse" id="conteValores">
+                            <div class="px-4 pt-4 collapse multi-collapse
+                                        conteNosotros" id="conteValores">
                                 <h4>Valores</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>
@@ -150,7 +153,6 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                             </div>
                         </div>  
                     </div>
-
                 </div>
             </div>
             <!--div class="row p-0 m-0">

@@ -10,7 +10,7 @@ $e=0;
 ?>
 <div class="container-slider p-0 m-0" id="servicios">
     <!-- Contenedor de los Slider -->
-    <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
+    <img src="<?= mesh4all_IMG.'background-line-waveF.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
@@ -42,7 +42,7 @@ $e=0;
                                 ?>
                                 <img class="d-block w-50" 
                                     src="<?= $img_url?>" 
-                                    alt="Mesh4All Comms Buttons">
+                                    alt="Mesh4All Control">
                             </div>
                         </div>
                         <div class="col-5 p-0 m-0">
@@ -50,7 +50,7 @@ $e=0;
                                 &nbsp;
                             </div>
                             <div class="col-12 h-100">
-                                <div class="col-10">
+                                <div class="col-10 content-services">
                                     <?php the_content(); ?>
                                 </div>
                                 <div class="col-2">
@@ -88,7 +88,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/comms-m4a-full.png'?>" 
                                     style="width:25vw;"
@@ -103,7 +103,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button" 
-                                           class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
                                            style="background-color:#de172b; color:white;" 
                                            href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
@@ -141,7 +141,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/iot-m4a-full.png'?>" 
                                     style="width:25vw;"
@@ -156,7 +156,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button" 
-                                            class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50" 
+                                            class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
                                             style="background-color:#f3911c; color:white;" 
                                             href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
@@ -194,7 +194,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/pay-m4a-w-title.png'?>" 
                                     style="width:25vw;"
@@ -209,7 +209,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button" 
-                                           class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
                                            style="background-color:#f3e600; color:white;"
                                            href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
@@ -247,7 +247,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/ag-m4a-full.png'?>" 
                                     style="width:25vw;"
@@ -262,7 +262,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button"
-                                           class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
                                            style="background-color:#00b43e; color:white;"
                                            href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
@@ -300,7 +300,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/city-m4a-w-title.png'?>" 
                                     style="width:25vw;"
@@ -315,7 +315,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button" 
-                                           class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
                                            style="background-color:#007ac0; color:white;"
                                            href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
@@ -353,7 +353,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/hw-m4a-w-title.png'?>" 
                                     style="width:25vw;"
@@ -368,7 +368,7 @@ $e=0;
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
                                         <a type="button" 
-                                           class="btn-vermas-serv btn rounded-pill pt-lg-2 pb-lg-2 w-50"  
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25"  
                                            style="background-color:#a22d89; color:white;"
                                            href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
