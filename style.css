@@ -185,18 +185,18 @@ Unete
 }
 
 .btn-vermas-serv{
-  border-radius: 1em;
+  border-radius: 1vw;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1vw;
 }
 
 /*
 OPEN SOURCE
 */
 .content-hardfree{
-  line-height: 1.8rem;
-  font-size: 0.8rem;
-  color:#aae;
+  line-height: 1.8vw;
+  font-size: 1vw;
+  background-color: red !important;
 }
 
 /*****************
@@ -243,9 +243,11 @@ OPEN SOURCE
   border-color: #d5d830;
   margin: 0 10px 0 10px;
 }
-.carousel-item{
+
+/*.carousel-item{
   min-height: 100vh;
 }
+*/
 .cont-nave {
   float: right !important;
   margin: 20px 50px 0 0!important;
@@ -347,9 +349,6 @@ Botones navegación carousel
   font-family: 'Gotham-Bold';
   color: #3f3e40;
   letter-spacing: 2px
-}
-
-  font-size: 16px; 
 }
 
 /*
