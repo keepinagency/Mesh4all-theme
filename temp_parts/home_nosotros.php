@@ -94,8 +94,8 @@ $posts = new WP_Query(array(
                                     $show = "show";
                                 }
                                 ?>
-                                <div class="col-11 px-4 pt-5 collapse <?=$show?> 
-                                            multi-collapse
+                                <div class="col-10 px-4 pt-4 collapse <?=$show?> 
+                                            multi-collapse border
                                             conteNosotros" id="conte<?=$tipo?>">
                                     <h5><?php the_title(); ?></h5>
                                     <p class="pr-2">
