@@ -23,7 +23,7 @@
 
         <!-- border transparente abajo -->
         <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" class="p-0 m-0"
-                style="z-index:-1;  max-width:100%; position:absolute; bottom:0;">
+                style="z-index:-1; width:100%; position:absolute; bottom:0;">
         
         <!-- mesh-01_full-hd2 -->
         <img src="<?= mesh4all_IMG.'home-meshback_v2.png'?>" alt="Mesh4All" class="p-0 m-0"
