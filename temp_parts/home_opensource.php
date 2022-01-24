@@ -168,7 +168,11 @@ $posts = new WP_Query(array(
                                             <a href="#"></a>
                                         </div-->
                                         <!--a href="#opensource" class="btnopensource pb-2" -->
-                                            <div class="btnopensource w-100 mb-2" 
+                                        <div class="col-12 mb-2  d-flex flex-row" style="height:12,5%;">
+                                            <div class="col-2 p-0 m-0">
+                                                &nbsp;
+                                            </div>    
+                                            <div class="col-8 btnopensource" 
                                                 id="<?=$tagcolor?>"
                                                 style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                                         background-size:contain;
@@ -180,6 +184,8 @@ $posts = new WP_Query(array(
                                                 alt="Mesh4All Comms Buttons <?=$tagcolor?>">
                                                 <div class="w-100 h-100" style="color:<?=$col?>; padding-top:1rem;"><?php the_title(); ?></div>
                                             </div>
+                                        </div>
+
                                         <!--/a-->
                                         <?php
                                     }
