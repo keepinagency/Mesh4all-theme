@@ -48,7 +48,7 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                             &nbsp;
                         </div>
                         <div class="col-12 p-0 m-0 d-flex flex-row"
-                            style="height:70%; 
+                            style="height:70%;
                                   background:url('<?= mesh4all_IMG.'opensource/HF-pic-orange-wave.png'?>') no-repeat;
                                   background-size:cover;
                                   background-position:left;">

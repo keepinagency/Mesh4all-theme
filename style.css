@@ -185,18 +185,17 @@ Unete
 }
 
 .btn-vermas-serv{
-  border-radius: 1em;
+  border-radius: 1vw;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1vw;
 }
 
 /*
 OPEN SOURCE
 */
 .content-hardfree{
-  line-height: 1.8rem;
-  font-size: 0.8rem;
-  color:#aae;
+  line-height: 1.8vw;
+  font-size: 1vw;
 }
 
 /*****************
@@ -243,9 +242,15 @@ OPEN SOURCE
   border-color: #d5d830;
   margin: 0 10px 0 10px;
 }
+<<<<<<< HEAD
 .car {
+=======
+
+/*.carousel-item{
+>>>>>>> 6e10efb6852711d8e9c2007445d1d7f3ac703385
   min-height: 100vh;
 }
+*/
 .cont-nave {
   float: right !important;
   margin: 20px 50px 0 0!important;
