@@ -100,6 +100,7 @@ function mesh4all_enqueue_scripts() {
 function mesh4all_register_menu() {
 	register_nav_menu( 'header-menu', __('Header Menu'));
     register_nav_menu( 'footer-menu', __('Footer Menu'));
+    /*register_nav_menu( 'softfree-menu', __('Soft Free'));*/
 }
 /****************FUNCION PARA EXTRACTO***********************/
 /*function custom_excerpt_length( $length){

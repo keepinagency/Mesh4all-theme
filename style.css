@@ -89,7 +89,6 @@ nav .navbar-nav li a:hover{
   padding-right: 2vw;
 }
 
-
 /*
 Unete
 */
@@ -128,7 +127,10 @@ Unete
 /*****************
   CONTÁCTANOS FORM
 ******************/
-
+.seccontacto p {
+  font-size: 1em;
+  font-family: 'Gotham-Book';
+}
 .form-group input {
   background-color: #000000;
   border-width: 2px;
@@ -145,40 +147,130 @@ Unete
 /**************
   SOFT-FREE
 **************/
-.soft-free p {
-  text-align: justify;
-  margin: 20px 40px 0px 20px !important;
-  text-transform: none;
+.soft-free{
+  min-height: 100 !important;
+  width: 100%;
 }
-.soft-free a{
+.soft-free h1 {
+  font-family: 'Gotham-Bold';
+}
+.carousel-fade .carousel-indicators > li {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+.carousel-fade .carousel-indicators > li.active {
+  opacity: 1;
+  background-color: #d5d830;
+  border-color: #d5d830;
+  margin: 0 10px 0 10px;
+}
+.carousel-item{
+  min-height: 100vh;
+}
+.cont-nave {
+  float: right !important;
+  margin: 20px 50px 0 0!important;
+
+}
+.cont-nave p{
+  padding-top: 3em;
+}
+.overlay-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1000000;
+}
+
+/*
+Botones navegación carousel
+*/
+.carousel-btn{
+  font-family: 'Gotham-Bold';
+  border-radius: 15px !important;
+  background-color: #000000 !important;
+  border-color: #ffffff;
+  color: #ffffff;
+  width: 10%;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagos {
+  font-family: 'Gotham-Bold';
   text-transform: uppercase;
-  text-align: center;
-  color: #313233;
-  padding: 20px 25px 15px 25px;
-  margin: 5px 20px 5px 30px;
-  background-color: #f8f9fa !important;
+  padding: 10px;
+  margin: 5px 10px 10px 5px;
+  /*color: #313233;*/
+  /*background-color: #f8f9fa !important;*/
   border-radius: 15px !important;
   width: 25%;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  align-items: center
-
-}
-.soft-free .active{
-  text-transform: uppercase;
-  color: #f8f9fa;
-  background-color: #000000 !important;
+  align-items: center;
+  background-color: #363636 !important;
   border-width: 2px;
   border-style: solid;
   border-color: #f8f9fa;
   border-radius: 8px !important;
 }
+.pagos a{
+  text-decoration: none;
+  text-align: center;
+  color: #f8f9fa;
+  border: #fff;
+}
+.nopagos {
+  font-family: 'Gotham-Bold';
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 5px 10px 10px 5px;
+  /*color: #313233;*/
+  /*background-color: #f8f9fa !important;*/
+  border-radius: 15px !important;
+  width: 25%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa !important;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-radius: 8px !important;
+}
+.nopagos a{
+  text-decoration: none;
+  text-align: center;
+  color: #363636;
+}
 
 /*
   Footer
 */
-.copyright {
+.barrafooter {
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-  font-size: 16px; 
+  font-family: 'Gotham-Bold';
 }
+.footer-social{
+  background-color: #171717;
+}
+.copyright{
+  background-color: #000408;
+  font-size: 2rem;
+  font-family: 'Gotham-Bold';
+  color: #3f3e40;
+  letter-spacing: 2px
+}
+
