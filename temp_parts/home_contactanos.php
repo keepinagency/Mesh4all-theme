@@ -2,7 +2,7 @@
 /*** Plantilla para el home CONTÁCTANOS***/    
    
 ?>
-<section class="seccontacto row justify-content-lg-center p-0 mb-lg-5" id="seccontacto">
+<section class="seccontacto row justify-content-lg-center mb-lg-5 p-lg-0 m-lg-0" id="seccontacto">
     
     <div class="col-lg-5 row justify-content-between rounded text-light">
         <div class="col-lg-12 mb-lg-3">
@@ -11,7 +11,8 @@
         <div class="mb-lg-3">
             <p>C/ wisi enim ad minim veniam, 23 </br>23654</p>
         </div>
-        <iframe class="" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30493167.385562003!2d-87.76528053486774!3d21.100184828668755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svenezuela!5e0!3m2!1ses-419!2sve!4v1639670629018!5m2!1ses-419!2sve" 
+        <iframe class="" 
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30493167.385562003!2d-87.76528053486774!3d21.100184828668755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svenezuela!5e0!3m2!1ses-419!2sve!4v1639670629018!5m2!1ses-419!2sve" 
             width="400" height="300" style="border:0; border-radius: 40px;" allowfullscreen="" loading="lazy">
         </iframe>
     </div>
