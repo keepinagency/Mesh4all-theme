@@ -167,8 +167,8 @@ $posts = new WP_Query(array(
                                                 alt="Mesh4All Comms Buttons <?=$tagcolor?>"> 
                                             <a href="#"></a>
                                         </div-->
-                                        <a href="#opensource" class="btnopensource pb-2" >
-                                            <div class="w-100 p-0 m-0 d-inline-block pt-3" 
+                                        <!--a href="#opensource" class="btnopensource pb-2" -->
+                                            <div class="btnopensource w-100 pt-3 mb-2" 
                                                 id="<?=$tagcolor?>"
                                                 style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                                         background-size:contain;
@@ -179,7 +179,7 @@ $posts = new WP_Query(array(
                                                 alt="Mesh4All Comms Buttons <?=$tagcolor?>">
                                                 <div class="w-100" style="color:<?=$col?>"><?php the_title(); ?></div>
                                             </div>
-                                        </a>
+                                        <!--/a-->
                                         <?php
                                     }
                                 endwhile;
@@ -275,6 +275,7 @@ $posts = new WP_Query(array(
         if (idele == btnsel){
             //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
             jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
+            jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         }else{
             jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+btnsel+'.png)');
         }
