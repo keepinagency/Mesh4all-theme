@@ -42,6 +42,61 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                         </div>
 
                     </div>
+                    <div class="col-7 p-0 m-0" >
+                        <div class="col-12p-0 m-0"
+                             style="height:10%;">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 p-0 m-0 d-flex flex-row"
+                            style="height:70%; 
+                                  background:url('<?= mesh4all_IMG.'opensource/HF-pic-orange-wave.png'?>') no-repeat;
+                                  background-size:cover;
+                                  background-position:left;">
+                            <div class="col-7">
+                                &nbsp;
+                            </div>
+                            <div class="col-5 d-flex flex-column m-auto 
+                                        px-5">
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-orange-on.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-red-off.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-purple-off.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-blue-off.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                                <div class="w-100" >
+                                    <img class="d-block w-100 p-2" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-green-off.png'?>" 
+                                        alt="Mesh4All Comms Buttons">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-red-cutted.png'?>" 
+                                alt="Mesh4All Comms Buttons">
+                        </div-->
+                    </div>
                 </div>
             </div>
         </div>
