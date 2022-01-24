@@ -199,6 +199,18 @@ OPEN SOURCE
 }
 .btnopensource{
   cursor: pointer;
+  text-decoration: none;
+}
+.btnopensource{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+.btnopensource:hover{
+  color:#333;
+  font-weight: bold;
 }
 
 /*****************

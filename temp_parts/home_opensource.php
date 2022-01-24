@@ -41,10 +41,10 @@ $posts = new WP_Query(array(
                                             $display = "block";
                                         }
                                         ?>
-                                        <div class="pt-3 pb-3 content-hardfree" 
+                                        <div class="pt-5 pb-3 content-hardfree" 
                                             style="display:<?= $display ?>;"
                                             id="cont-<?=$post_tags[0]->name?>">
-                                            <h2 class="pt-5"><?php the_title(); ?></h2>
+                                            <!--h2 class="pt-5"><?php the_title(); ?></h2-->
                                             <?php the_content(); ?>
                                         </div>
                                     <?php
@@ -143,7 +143,55 @@ $posts = new WP_Query(array(
                             <div class="col-7">
                                 &nbsp;
                             </div>
-                            <div class="col-5 d-flex flex-column m-auto px-5">
+                            <div class="col-5 m-auto">
+                            <?php
+                            if ($posts->have_posts()){
+                                while($posts->have_posts()) : $posts->the_post(); 
+                                    $post_tags = get_the_tags();
+                                    if ( $post_tags ) {
+                                        $on = "off";
+                                        $col = "#ddd";
+                                        $tagcolor =  $post_tags[0]->name; 
+                                        $taglink =  $post_tags[1]->name; 
+                                        if ($tagcolor == 'orange'){
+                                            $on = "on";
+                                            $col = "#333";
+                                        }
+                                        ?>
+                                        <!--div class="w-100" >
+                                            <img class="d-block w-100 p-2 btnopensource" id="<?=$tagcolor?>" 
+                                                src="<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off.png'?>"
+                                                onclick="clickbtn(this.id);"
+                                                onmouseover="changeon(this.id);" 
+                                                onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off.png'?>');"
+                                                alt="Mesh4All Comms Buttons <?=$tagcolor?>"> 
+                                            <a href="#"></a>
+                                        </div-->
+                                        <!--a href="#opensource" class="btnopensource pb-2" -->
+                                        <div class="col-12 mb-2  d-flex flex-row" style="height:12,5%;">
+                                            <div class="col-2 p-0 m-0">
+                                                &nbsp;
+                                            </div>    
+                                            <div class="col-8 btnopensource" 
+                                                id="<?=$tagcolor?>"
+                                                style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
+                                                        background-size:contain;
+                                                        background-position:center;
+                                                        height:8vh;"
+                                                onclick="clickbtn(this.id);"
+                                                onmouseover="changeon(this.id);" 
+                                                onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
+                                                alt="Mesh4All Comms Buttons <?=$tagcolor?>">
+                                                <div class="w-100 h-100" style="color:<?=$col?>; padding-top:1rem;"><?php the_title(); ?></div>
+                                            </div>
+                                        </div>
+
+                                        <!--/a-->
+                                        <?php
+                                    }
+                                endwhile;
+                            }else{
+                                ?>
                                 <div class="w-100" >
                                     <img class="d-block w-100 p-2 btnopensource" id="yellow" 
                                         src="<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>"
@@ -192,6 +240,9 @@ $posts = new WP_Query(array(
                                         onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-green-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
+                            <?php
+                            }
+                            ?>
                                 <input type="hidden" id="btnopen_sel" value="orange"> 
                             </div>
                         </div>
@@ -205,7 +256,11 @@ $posts = new WP_Query(array(
     
     function clickbtn(idele){
         var selant = jQuery("#btnopen_sel").val();
-        document.getElementById(selant).src='<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off.png';
+        //document.getElementById(selant).src='<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off.png';
+        jQuery("#"+selant).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off-.png)');
+        jQuery("#"+selant+" div").css('color','white');
+        jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
+        jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'.png)');
         jQuery("#btnopen_sel").val(idele);
         jQuery("#cont-"+selant).hide();
@@ -213,15 +268,21 @@ $posts = new WP_Query(array(
     }
 
     function changeon(idele){
-        document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
+        //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
+        jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
+        jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'.png)');
         // bgopensource HF-pic-blue
     }
     function changeoff(idele,srcele){
-        document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off.png';
+        //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off.png';
+        jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off-.png)');
+        jQuery("#"+idele+" div").css('color','white');
         btnsel = jQuery("#btnopen_sel").val();
         if (idele == btnsel){
-            document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
+            //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
+            jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
+            jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         }else{
             jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+btnsel+'.png)');
         }
