@@ -29,7 +29,7 @@ $i=0;
                 } ?>
                 <div class="carousel-item col-12 <?=$active?> h-100 p-0 m-0">
                     <div class="row h-100">
-                        <div class="col-7">
+                        <div class="col-6">
                             <div class="col-12 row p-0 m-0  w-100 h-25">
                                 <div class="col-3">
                                     &nbsp;
@@ -48,12 +48,12 @@ $i=0;
                                     alt="Mesh4All Control">
                             </div>
                         </div>
-                        <div class="col-5 p-0 m-0">
+                        <div class="col-6 p-0 m-0 ">
                             <div class="col-12 row h-25 p-0 m-0">
                                 &nbsp;
                             </div>
                             <div class="col-12 h-100">
-                                <div class="col-10 content-services">
+                                <div class="col-9 content-services">
                                     <?php the_content(); ?>
                                 </div>
                                 <div class="col-2">
