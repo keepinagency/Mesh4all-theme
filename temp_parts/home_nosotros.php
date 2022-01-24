@@ -66,24 +66,24 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                 <div class="col-lg-12 row p-0 m-0 h-75">
                     
                     <div class="row p-0 m-0 w-50">
-                        <div class="p-0 m-0 h-50 w-50 d-flex align-items-end">
+                        <div class="p-0 m-0 h-50 w-50 d-flex align-items-end ">
                             
-                            <div class="w-100 h-50 p-0 m-0 d-flex flex-row">
+                            <div class="w-100 h-50 p-0 m-0 d-flex flex-row ">
                                 <!-- VISION -->
                                 <div class="col-4 m-0 p-0">&nbsp;</div>
                                 <div class="col-8 m-0 p-0 
-                                            d-flex align-items-center px-3 pt-3
+                                            d-flex align-items-center px-4 pt-3
                                            "><a class="linkContent" 
                                                 data-toggle="collapse" 
                                                 data-parent="#areaContent"
                                                 href="#conteVision" 
                                                 role="button" aria-expanded="false" 
-                                                aria-controls="conteMision">VISIÓN</a></div>
+                                                aria-controls="conteMision">Visión</a></div>
                             </div>
 
                         </div>
 
-                        <div class="h-50 w-50 pt-3 px-3">
+                        <div class="h-50 w-50 pt-3 px-4">
                             <!-- MISION -->
                             <a class="linkContent" 
                                 data-toggle="collapse" 
@@ -91,12 +91,13 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                 href="#conteMision" 
                                 role="button" aria-expanded="true" 
                                 aria-controls="conteMision"
-                                onClick="">MISIÓN </a>
+                                onClick="">Misión</a>
                         </div>
 
-                        <div class="h-25 w-100 d-flex flex-row p-0 m-0">        
+                        <div class="h-25 w-100 d-flex flex-row p-0 m-0"
+                             style="height: 28%;">        
                             <div class="col-6 m-0 p-0">&nbsp;</div>
-                            <div class="col-6 m-0 p-0 px-2
+                            <div class="col-6 m-0 p-0 px-3
                                         d-flex align-items-end
                                         "><a class="linkContent" 
                                                 data-toggle="collapse" 
@@ -104,10 +105,10 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                                 href="#conteValores" 
                                                 role="button" aria-expanded="true" 
                                                 aria-controls="conteValores"
-                                                onClick="">VALORES</a> <!-- VALORES --></div>
+                                                onClick="">Valores</a> <!-- VALORES --></div>
                             
                         </div>
-                        <div class="h-25 w-100">
+                        <div class="w-100" style="height: 22%;">
                             &nbsp;
                         </div>
                     </div>
@@ -120,7 +121,7 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                             <div style="height:17%;">
                                 &nbsp;
                             </div>
-                            <div class="px-3 collapse show multi-collapse" id="conteMision">
+                            <div class="px-4 pt-4 collapse show multi-collapse" id="conteMision">
                                 <h4>Misión</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>
@@ -129,7 +130,7 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                 Aenean urna purus, consequat ut <br>
                                 leo in, laoreet feugiat ligula.
                             </div>
-                            <div class="px-3 collapse multi-collapse" id="conteVision">
+                            <div class="px-4 pt-4 collapse multi-collapse" id="conteVision">
                                 <h4>Visión</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>
@@ -138,7 +139,7 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                                 Aenean urna purus, consequat ut <br>
                                 leo in, laoreet feugiat ligula.
                             </div>
-                            <div class="px-3 collapse multi-collapse" id="conteValores">
+                            <div class="px-4 pt-4 collapse multi-collapse" id="conteValores">
                                 <h4>Valores</h4>
                                 Sed auctor faucibus quam, <br>
                                 ac egestas ex lobortis vitae. <br>

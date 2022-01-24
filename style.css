@@ -159,6 +159,8 @@ Unete
   font-weight: bold;
   color:#ddd;
   text-decoration: none;
+  text-transform:capitalize !important;
+  font-size: 1.4rem;
 }
 
 .linkContent:hover{
