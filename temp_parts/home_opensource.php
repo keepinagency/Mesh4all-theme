@@ -47,9 +47,9 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                              style="height:10%;">
                             &nbsp;
                         </div>
-                        <div class="col-12 p-0 m-0 d-flex flex-row"
+                        <div class="col-12 p-0 m-0 d-flex flex-row" id="bgopensource"
                             style="height:70%;
-                                  background:url('<?= mesh4all_IMG.'opensource/HF-pic-orange-wave.png'?>') no-repeat;
+                                  background:url('<?= mesh4all_IMG.'opensource/HF-pic-orange.png'?>') no-repeat;
                                   background-size:cover;
                                   background-position:left;">
                             <div class="col-7">
@@ -58,67 +58,64 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                             <div class="col-5 d-flex flex-column m-auto 
                                         px-5">
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
-                                        src="<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="yellow" 
+                                        src="<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>"
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="orange"
                                         src="<?= mesh4all_IMG.'opensource/HF-orange-on.png'?>" 
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-orange-on.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="red"
                                         src="<?= mesh4all_IMG.'opensource/HF-red-off.png'?>" 
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-red-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="purple"
                                         src="<?= mesh4all_IMG.'opensource/HF-purple-off.png'?>" 
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-purple-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="blue"
                                         src="<?= mesh4all_IMG.'opensource/HF-blue-off.png'?>" 
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-blue-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                                 <div class="w-100" >
-                                    <img class="d-block w-100 p-2" 
+                                    <img class="d-block w-100 p-2 btnopensource" id="green"
                                         src="<?= mesh4all_IMG.'opensource/HF-green-off.png'?>" 
+                                        onmouseover="changeon(this.id);" 
+                                        onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-green-off.png'?>');"
                                         alt="Mesh4All Comms Buttons">
                                 </div>
                             </div>
                         </div>
-                        
-                        <!--div class="col-12 row  p-0 m-0  
-                                    d-flex align-items-center justify-content-center">
-                            <img class="d-block w-50" 
-                                src="<?= mesh4all_IMG.'services/control-red-cutted.png'?>" 
-                                alt="Mesh4All Comms Buttons">
-                        </div-->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--div id="overopensource" class="row col-12 p-0 m-0 ratio ratio-16x9">
-        <div class="row h-25 p-0 m-0">
-            <div class="col-7">
-                <div class="col-12 row p-0 m-0  w-100 h-25">
-                    <div class="col-3 p-0 m-0">
-                        &nbsp;
-                    </div>
-                    <div class="col-9 align-items-center p-0 m-0">
-                        <p class="pt-4 m-0">
-                            <h1 class="pt-5">OPEN SOURCE</h1>
-                            <h3>HARD-FREE</h3>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row h-100 p-0 m-0 border border-warning">
-
-        </div>
-    </div-->
 </div>
+<script>
+    function changeon(idele){
+        document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
+        jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'.png)');
+        // bgopensource HF-pic-blue
+    }
+    function changeoff(idele,srcele){
+        //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-off.png';
+        document.getElementById(idele).src=srcele;
+        jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-orange.png'?>');
+    }
+</script>

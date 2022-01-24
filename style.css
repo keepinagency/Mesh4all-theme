@@ -197,6 +197,9 @@ OPEN SOURCE
   line-height: 1.8vw;
   font-size: 1vw;
 }
+.btnopensource{
+  cursor: pointer;
+}
 
 /*****************
   CONTÁCTANOS FORM
