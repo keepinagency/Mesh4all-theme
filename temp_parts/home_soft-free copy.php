@@ -26,16 +26,16 @@ $var = new WP_Query(array(
       <li data-target="#mycarousel" data-slide-to="4" aria-label="Slide 5"></li>
       <li data-target="#mycarousel" data-slide-to="5" aria-label="Slide 6"></li>
     </ol>
-    <div class="carousel-inner mt-lg-5 pt-lg-5">
+    <div class="carousel-inner mt-lg-5 pt-lg-5 ratio ratio-16x9">
       <div class="car carousel-item active pt-lg-5">
         <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="pagos"><a href="#">Pagos</a></button> 
-          <button class="nopagos"><a href="#">Meshers</a></button>
-          <button class="nopagos"><a href="#">Wallet</a></button>
-          <button class="nopagos"><a href="#">Agenda</a></button> 
-          <button class="nopagos"><a href="#">Usuario</a></button>
-          <button class="nopagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn" class="pagos">Pagos</button> 
+          <button type="button" id="myBtn1" class="nopagos">Meshers</button>
+          <button type="button" id="myBtn2" class="nopagos">Wallet</button>
+          <button type="button" id="myBtn3" class="nopagos">Agenda</button> 
+          <button type="button" id="myBtn4" class="nopagos">Usuario</button>
+          <button type="button" id="myBtn5" class="nopagos">Social</button>
           <p class="col-lg-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
             Ut sit amet mauris in justo tristique porttitor. Vivamus egestas purus sit amet iaculis euismod. Donec sagittis malesuada vestibulum. 
             Vestibulum ultricies pretium feugiat. Nunc mattis mauris vel pharetra porta. Integer ornare porttitor tellus vitae dapibus.</br></br>
@@ -46,12 +46,12 @@ $var = new WP_Query(array(
       <div class="car carousel-item pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-bluemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="nopagos"><a href="#">Pagos</a></button> 
-          <button class="pagos"><a href="#">Meshers</a></button>
-          <button class="nopagos"><a href="#">Wallet</a></button>
-          <button class="nopagos"><a href="#<">Agenda</a></button> 
-          <button class="nopagos"><a href="#">Usuario</a></button>
-          <button class="nopagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn6" class="nopagos">Pagos</button> 
+          <button type="button" id="myBtn7" class="pagos">Meshers</button>
+          <button type="button" id="myBtn8" class="nopagos">Wallet</button>
+          <button type="button" id="myBtn9" class="nopagos">Agenda</button> 
+          <button type="button" id="myBtn10" class="nopagos">Usuario</button>
+          <button type="button" id="myBtn11" class="nopagos">Social</button>
             <p class="col-lg-10">Pellentesque condimentum, sem in lobortis consectetur, orci sapien pharetra libero, quis convallis velit odio et nunc.
                   Vestibulum bibendum gravida metus at tempus. Morbi ultrices lectus eget ipsum laoreet pretium. Quisque vitae iaculis odio. 
                   Integer venenatis ornare leo, maximus euismod nulla interdum eget. Nam in mollis sem. Pellentesque nec sollicitudin sem, a consectetur nibh. 
@@ -63,12 +63,12 @@ $var = new WP_Query(array(
       <div class="car carousel-item  pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-greenmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="nopagos"><a href="#">Pagos</a></button> 
-          <button class="nopagos"><a href="#">Meshers</a></button>
-          <button class="pagos"><a href="#">Wallet</a></button>
-          <button class="nopagos"><a href="#">Agenda</a></button> 
-          <button class="nopagos"><a href="#">Usuario</a></button>
-          <button class="nopagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn" class="nopagos">Pagos</button> 
+          <button type="button" id="myBtn1" class="nopagos">Meshers</button>
+          <button type="button" id="myBtn2" class="pagos">Wallet</button>
+          <button type="button" id="myBtn3" class="nopagos">Agenda</button> 
+          <button type="button" id="myBtn4" class="nopagos">Usuario</button>
+          <button type="button" id="myBtn5" class="nopagos">Social</button>
           <p class="col-lg-10">Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                   Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
                   Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
@@ -80,12 +80,12 @@ $var = new WP_Query(array(
       <div class="car carousel-item pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-purplemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="nopagos"><a href="#">Pagos</a></button> 
-          <button class="nopagos"><a href="#">Meshers</a></button>
-          <button class="nopagos"><a href="#">Wallet</a></button>
-          <button class="pagos"><a href="#">Agenda</a></button> 
-          <button class="nopagos"><a href="#">Usuario</a></button>
-          <button class="nopagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn" class="nopagos">Pagos</button> 
+          <button type="button" id="myBtn1" class="nopagos">Meshers</button>
+          <button type="button" id="myBtn2" class="nopagos">Wallet</button>
+          <button type="button" id="myBtn3" class="pagos">Agenda</button> 
+          <button type="button" id="myBtn4" class="nopagos">Usuario</button>
+          <button type="button" id="myBtn5" class="nopagos">Social</button>
           <p class="col-lg-10">Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                   Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
                   Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
@@ -97,12 +97,12 @@ $var = new WP_Query(array(
       <div class="car carousel-item pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-redmovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="nopagos"><a href="#">Pagos</a></button> 
-          <button class="nopagos"><a href="#">Meshers</a></button>
-          <button class="nopagos"><a href="#">Wallet</a></button>
-          <button class="nopagos"><a href="#">Agenda</a></button> 
-          <button class="pagos"><a href="#">Usuario</a></button>
-          <button class="nopagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn" class="nopagos">Pagos</button> 
+          <button type="button" id="myBtn1" class="nopagos">Meshers</button>
+          <button type="button" id="myBtn2" class="nopagos">Wallet</button>
+          <button type="button" id="myBtn3" class="nopagos">Agenda</button> 
+          <button type="button" id="myBtn4" class="pagos">Usuario</button>
+          <button type="button" id="myBtn5" class="nopagos">Social</button>
           <p class="col-lg-10">Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                   Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
                   Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
@@ -114,12 +114,12 @@ $var = new WP_Query(array(
       <div class="car carousel-item pt-lg-5">
       <div class="overlay-image" style="background-image:url(<?php echo get_template_directory_uri() . '/img/SF-orangemovil-wave.png'; ?>);"></div>
         <div class="row col-lg-6 cont-nave">
-          <button class="nopagos"><a href="#">Pagos</a></button> 
-          <button class="nopagos"><a href="#">Meshers</a></button>
-          <button class="nopagos"><a href="#">Wallet</a></button>
-          <button class="nopagos"><a href="#">Agenda</a></button> 
-          <button class="nopagos"><a href="#">Usuario</a></button>
-          <button class="pagos"><a href="#">Social</a></button>
+          <button type="button" id="myBtn" class="nopagos">Pagos</button> 
+          <button type="button" id="myBtn1" class="nopagos">Meshers</button>
+          <button type="button" id="myBtn2" class="nopagos">Wallet</button>
+          <button type="button" id="myBtn3" class="nopagos">Agenda</button> 
+          <button type="button" id="myBtn4" class="nopagos">Usuario</button>
+          <button type="button" id="myBtn5" class="pagos">Social</button>
           <p class="col-lg-10">Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                   Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
                   Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
@@ -134,5 +134,25 @@ $var = new WP_Query(array(
 </section>
 
 <script>
-
+jQuery(document).ready(function(){
+   
+    jQuery("#myBtn").click(function(){
+        jQuery("#mycarousel").carousel(0);
+    });
+    jQuery("#myBtn1").click(function(){
+        jQuery("#mycarousel").carousel(1);
+    });
+    jQuery("#myBtn2").click(function(){
+        jQuery("#mycarousel").carousel(2);
+    });
+    jQuery("#myBtn3").click(function(){
+        jQuery("#mycarousel").carousel(3);
+    });
+    jQuery("#myBtn4").click(function(){
+        jQuery("#mycarousel").carousel(4);
+    });
+    jQuery("#myBtn5").click(function(){
+        jQuery("#mycarousel").carousel(5);
+    });
+});
 </script>
