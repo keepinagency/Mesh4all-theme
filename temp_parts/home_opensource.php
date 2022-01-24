@@ -168,8 +168,7 @@ $posts = new WP_Query(array(
                                             <a href="#"></a>
                                         </div-->
                                         <a href="#opensource" class="btnopensource pb-2" >
-                                            <div class="w-100 p-0 m-0 d-inline-block
-                                                        d-flex align-items-center" 
+                                            <div class="w-100 p-0 m-0 d-inline-block pt-3" 
                                                 id="<?=$tagcolor?>"
                                                 style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                                         background-size:contain;
