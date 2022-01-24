@@ -94,10 +94,11 @@ $posts = new WP_Query(array(
                                     $show = "show";
                                 }
                                 ?>
-                                <div class="px-4 pt-5 collapse <?=$show?> multi-collapse
-                                    conteNosotros" id="conte<?=$tipo?>">
+                                <div class="col-11 px-4 pt-5 collapse <?=$show?> 
+                                            multi-collapse
+                                            conteNosotros" id="conte<?=$tipo?>">
                                     <h5><?php the_title(); ?></h5>
-                                    <p>
+                                    <p class="pr-2">
                                         <?php the_content(); ?>
                                     </p>
                                 </div>
