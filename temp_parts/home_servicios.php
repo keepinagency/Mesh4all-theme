@@ -8,15 +8,16 @@ $posts_slide = new WP_Query(array(
 $i=0;
 $e=0;
 ?>
-<div class="container-slider p-0 m-0">
+<div class="container-slider p-0 m-0" id="servicios">
     <!-- Contenedor de los Slider -->
-    <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
+    <img src="<?= mesh4all_IMG.'background-line-waveF.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
     <div id="miCarousel" 
             class="carousel slide row ratio ratio-16x9 p-0 m-0" 
             data-ride="carousel">
+
         <div class="carousel-inner h-100 p-0 w-100">
         <?php 
         
@@ -41,7 +42,7 @@ $e=0;
                                 ?>
                                 <img class="d-block w-50" 
                                     src="<?= $img_url?>" 
-                                    alt="Mesh4All Comms Buttons">
+                                    alt="Mesh4All Control">
                             </div>
                         </div>
                         <div class="col-5 p-0 m-0">
@@ -49,7 +50,7 @@ $e=0;
                                 &nbsp;
                             </div>
                             <div class="col-12 h-100">
-                                <div class="col-10">
+                                <div class="col-10 content-services">
                                     <?php the_content(); ?>
                                 </div>
                                 <div class="col-2">
@@ -87,7 +88,7 @@ $e=0;
                             &nbsp;
                         </div>
                         <div class="col-12 h-100">
-                            <div class="col-10">
+                            <div class="col-10 content-services">
                                 <img class="d-block" 
                                     src="<?= mesh4all_IMG.'services/comms-m4a-full.png'?>" 
                                     style="width:25vw;"
@@ -101,7 +102,275 @@ $e=0;
                                 </p>
                                 <div class="col-lg-12 p-0 m-0 "> 
                                     <a href="<?php $urlbtn; ?>" >
-                                        <a type="button" class="btn-vermas-serv btn btn-danger rounded-pill pt-lg-2 pb-lg-2 w-50" href="<?=$urlbtn;?>">
+                                        <a type="button" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
+                                           style="background-color:#de172b; color:white;" 
+                                           href="<?=$urlbtn;?>">
+                                            <?php echo $txtbtn;?>
+                                        </a> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-12 h-100 p-0 m-0">
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="col-12 row p-0 m-0  w-100 h-25">
+                            <div class="col-3">
+                                &nbsp;
+                            </div>
+                            <div class="col-9 d-flex align-items-center ">
+                                <h1>SERVICIOS</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-orange-cutted.png'?>" 
+                                alt="Mesh4All IoT Buttons">
+                        </div>
+                    </div>
+                    <div class="col-5 p-0 m-0">
+                        <div class="col-12 row h-25 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 h-100">
+                            <div class="col-10 content-services">
+                                <img class="d-block" 
+                                    src="<?= mesh4all_IMG.'services/iot-m4a-full.png'?>" 
+                                    style="width:25vw;"
+                                    alt="Mesh4All IoT"><br>
+                                <p>
+                                    2do Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                                    elit. Suspendisse convallis eu enim ut lacinia. <br>
+                                    Cras non risus dapibus, lacinia elit nec, mollis odio. <br>
+                                    Morbi ac rutrum leo. Curabitur volutpat urna libero.<br>
+                                     ac cursus libero accumsan nec.
+                                </p>
+                                <div class="col-lg-12 p-0 m-0 "> 
+                                    <a href="<?php $urlbtn; ?>" >
+                                        <a type="button" 
+                                            class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
+                                            style="background-color:#f3911c; color:white;" 
+                                            href="<?=$urlbtn;?>">
+                                            <?php echo $txtbtn;?>
+                                        </a> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-12 h-100 p-0 m-0">
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="col-12 row p-0 m-0  w-100 h-25">
+                            <div class="col-3">
+                                &nbsp;
+                            </div>
+                            <div class="col-9 d-flex align-items-center ">
+                                <h1>SERVICIOS</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-yellow-cutted.png'?>" 
+                                alt="Mesh4All Pay Buttons">
+                        </div>
+                    </div>
+                    <div class="col-5 p-0 m-0">
+                        <div class="col-12 row h-25 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 h-100">
+                            <div class="col-10 content-services">
+                                <img class="d-block" 
+                                    src="<?= mesh4all_IMG.'services/pay-m4a-w-title.png'?>" 
+                                    style="width:25vw;"
+                                    alt="Mesh4All Pay"><br>
+                                <p>
+                                    3ro Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                                    elit. Suspendisse convallis eu enim ut lacinia. <br>
+                                    Cras non risus dapibus, lacinia elit nec, mollis odio. <br>
+                                    Morbi ac rutrum leo. Curabitur volutpat urna libero.<br>
+                                     ac cursus libero accumsan nec.
+                                </p>
+                                <div class="col-lg-12 p-0 m-0 "> 
+                                    <a href="<?php $urlbtn; ?>" >
+                                        <a type="button" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
+                                           style="background-color:#f3e600; color:white;"
+                                           href="<?=$urlbtn;?>">
+                                            <?php echo $txtbtn;?>
+                                        </a> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-12 h-100 p-0 m-0">
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="col-12 row p-0 m-0  w-100 h-25">
+                            <div class="col-3">
+                                &nbsp;
+                            </div>
+                            <div class="col-9 d-flex align-items-center ">
+                                <h1>SERVICIOS</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-green-cutted.png'?>" 
+                                alt="Mesh4All AG Buttons">
+                        </div>
+                    </div>
+                    <div class="col-5 p-0 m-0">
+                        <div class="col-12 row h-25 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 h-100">
+                            <div class="col-10 content-services">
+                                <img class="d-block" 
+                                    src="<?= mesh4all_IMG.'services/ag-m4a-full.png'?>" 
+                                    style="width:25vw;"
+                                    alt="Mesh4All AG"><br>
+                                <p>
+                                    4to Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                                    elit. Suspendisse convallis eu enim ut lacinia. <br>
+                                    Cras non risus dapibus, lacinia elit nec, mollis odio. <br>
+                                    Morbi ac rutrum leo. Curabitur volutpat urna libero.<br>
+                                     ac cursus libero accumsan nec.
+                                </p>
+                                <div class="col-lg-12 p-0 m-0 "> 
+                                    <a href="<?php $urlbtn; ?>" >
+                                        <a type="button"
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
+                                           style="background-color:#00b43e; color:white;"
+                                           href="<?=$urlbtn;?>">
+                                            <?php echo $txtbtn;?>
+                                        </a> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-12 h-100 p-0 m-0">
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="col-12 row p-0 m-0  w-100 h-25">
+                            <div class="col-3">
+                                &nbsp;
+                            </div>
+                            <div class="col-9 d-flex align-items-center ">
+                                <h1>SERVICIOS</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-blue-cutted.png'?>" 
+                                alt="Mesh4All City Buttons">
+                        </div>
+                    </div>
+                    <div class="col-5 p-0 m-0">
+                        <div class="col-12 row h-25 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 h-100">
+                            <div class="col-10 content-services">
+                                <img class="d-block" 
+                                    src="<?= mesh4all_IMG.'services/city-m4a-w-title.png'?>" 
+                                    style="width:25vw;"
+                                    alt="Mesh4All City"><br>
+                                <p>
+                                    5to Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                                    elit. Suspendisse convallis eu enim ut lacinia. <br>
+                                    Cras non risus dapibus, lacinia elit nec, mollis odio. <br>
+                                    Morbi ac rutrum leo. Curabitur volutpat urna libero.<br>
+                                     ac cursus libero accumsan nec.
+                                </p>
+                                <div class="col-lg-12 p-0 m-0 "> 
+                                    <a href="<?php $urlbtn; ?>" >
+                                        <a type="button" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25" 
+                                           style="background-color:#007ac0; color:white;"
+                                           href="<?=$urlbtn;?>">
+                                            <?php echo $txtbtn;?>
+                                        </a> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-12 h-100 p-0 m-0">
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="col-12 row p-0 m-0  w-100 h-25">
+                            <div class="col-3">
+                                &nbsp;
+                            </div>
+                            <div class="col-9 d-flex align-items-center ">
+                                <h1>SERVICIOS</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 row  p-0 m-0  
+                                    d-flex align-items-center justify-content-center">
+                            <img class="d-block w-50" 
+                                src="<?= mesh4all_IMG.'services/control-purple-cutted.png'?>" 
+                                alt="Mesh4All Hardware Buttons">
+                        </div>
+                    </div>
+                    <div class="col-5 p-0 m-0">
+                        <div class="col-12 row h-25 p-0 m-0">
+                            &nbsp;
+                        </div>
+                        <div class="col-12 h-100">
+                            <div class="col-10 content-services">
+                                <img class="d-block" 
+                                    src="<?= mesh4all_IMG.'services/hw-m4a-w-title.png'?>" 
+                                    style="width:25vw;"
+                                    alt="Mesh4All Hardware"><br>
+                                <p>
+                                    6to Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                                    elit. Suspendisse convallis eu enim ut lacinia. <br>
+                                    Cras non risus dapibus, lacinia elit nec, mollis odio. <br>
+                                    Morbi ac rutrum leo. Curabitur volutpat urna libero.<br>
+                                     ac cursus libero accumsan nec.
+                                </p>
+                                <div class="col-lg-12 p-0 m-0 "> 
+                                    <a href="<?php $urlbtn; ?>" >
+                                        <a type="button" 
+                                           class="btn-vermas-serv btn pt-lg-2 pb-lg-2 w-25"  
+                                           style="background-color:#a22d89; color:white;"
+                                           href="<?=$urlbtn;?>">
                                             <?php echo $txtbtn;?>
                                         </a> 
                                     </a>
