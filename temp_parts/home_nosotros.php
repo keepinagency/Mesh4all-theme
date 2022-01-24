@@ -121,35 +121,41 @@ style="background: url('<?= mesh4all_IMG.'mesh-02-hd2.png'?>') no-repeat; height
                             <div style="height:17%;">
                                 &nbsp;
                             </div>
-                            <div class="px-4 pt-4 collapse show multi-collapse
+                            <div class="px-4 pt-5 collapse show multi-collapse
                                         conteNosotros" id="conteMision">
-                                <h4>Misión</h4>
-                                Sed auctor faucibus quam, <br>
-                                ac egestas ex lobortis vitae. <br>
-                                Interdum et malesuada fames ac <br>
-                                ante ipsum primis in faucibus. <br>
-                                Aenean urna purus, consequat ut <br>
-                                leo in, laoreet feugiat ligula.
+                                <h5>Misión</h5>
+                                <p>
+                                Sed diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam. Sed<br>
+                                diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam.
+                                </p>
                             </div>
-                            <div class="px-4 pt-4 collapse multi-collapse
+                            <div class="px-4 pt-5 collapse multi-collapse
                                         conteNosotros" id="conteVision">
-                                <h4>Visión</h4>
-                                Sed auctor faucibus quam, <br>
-                                ac egestas ex lobortis vitae. <br>
-                                Interdum et malesuada fames ac <br>
-                                ante ipsum primis in faucibus. <br>
-                                Aenean urna purus, consequat ut <br>
-                                leo in, laoreet feugiat ligula.
+                                <h5>Visión</h5>
+                                <p>
+                                Sed diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam. Sed<br>
+                                diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam.
+                                </p>
                             </div>
-                            <div class="px-4 pt-4 collapse multi-collapse
+                            <div class="px-4 pt-5 collapse multi-collapse
                                         conteNosotros" id="conteValores">
-                                <h4>Valores</h4>
-                                Sed auctor faucibus quam, <br>
-                                ac egestas ex lobortis vitae. <br>
-                                Interdum et malesuada fames ac <br>
-                                ante ipsum primis in faucibus. <br>
-                                Aenean urna purus, consequat ut <br>
-                                leo in, laoreet feugiat ligula.
+                                <h5>Valores</h5>
+                                <p>
+                                Sed diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam. Sed<br>
+                                diam nonummy nibh euismod<br>
+                                tincidunt ut laoreet dolore magna.<br>
+                                Ut wisi enim ad minim veniam.
+                                </p>
                             </div>
                         </div>  
                     </div>
