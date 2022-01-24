@@ -1,6 +1,12 @@
 <?php 
 /*** Plantilla para el home OPEN SOURCE***/   
-$ser = new WP_Query(array('pagename' => 'opensource'));
+//$ser = new WP_Query(array('pagename' => 'opensource'));
+
+$posts = new WP_Query(array(
+    'post_type' => 'post',
+    'category_name' => 'hard-free',
+    'order'      => 'DESC',
+));
 
 ?>
 <div class="sec-opensource p-0 m-0" id="opensource">
@@ -23,6 +29,30 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                             <div class="col-9 p-0 m-0 ">
                                 <h1 class="pt-5">OPEN SOURCE</h1>
                                 <h5 class="linkContent">HARD-FREE</h5>
+                                <!-- CONTENIDO DINÁMICO -->
+                            <?php
+                            if ($posts->have_posts()){
+                                while($posts->have_posts()) : $posts->the_post(); 
+                                    $post_tags = get_the_tags();
+                                    if ( $post_tags ) {
+                                        //echo $post_tags[0]->name; 
+                                        $display = "none";
+                                        if ($post_tags[0]->name == 'orange'){
+                                            $display = "block";
+                                        }
+                                        ?>
+                                        <div class="pt-3 pb-3 content-hardfree" 
+                                            style="display:<?= $display ?>;"
+                                            id="cont-<?=$post_tags[0]->name?>">
+                                            <h2 class="pt-5"><?php the_title(); ?></h2>
+                                            <?php the_content(); ?>
+                                        </div>
+                                    <?php
+                                    }
+                                endwhile;
+                            }else{
+
+                                ?>
                                 <div class="pt-3 pb-3 content-hardfree" style="display:none;" id="cont-yellow">
                                 <h2 class="pt-5">Titulo Yellow</h2>
                                 Lorem ipsum dolor sit amet, consectetuer<br />
@@ -93,6 +123,9 @@ $ser = new WP_Query(array('pagename' => 'opensource'));
                                    class="btn-unete btn btn-light py-2" href="#">
                                     Ver mas
                                 </a>
+                                <?php
+                            }
+                            ?>
                             </div>
                         </div>
 
