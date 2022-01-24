@@ -6,7 +6,6 @@ $posts_slide = new WP_Query(array(
     'order'      => 'DESC',
     ));
 $i=0;
-$e=0;
 ?>
 <div class="container-slider p-0 m-0" id="servicios">
     <!-- Contenedor de los Slider -->
@@ -22,11 +21,15 @@ $e=0;
         <?php 
         
         if ($posts_slide->have_posts()){
-            while($posts_slide->have_posts()) : $posts_slide->the_post(); ?>
             
-                <div class="carousel-item col-12 active h-100 p-0 m-0">
+            while($posts_slide->have_posts()) : $posts_slide->the_post(); 
+                $active = "";
+                if ($i ==0){
+                    $active = "active";
+                } ?>
+                <div class="carousel-item col-12 <?=$active?> h-100 p-0 m-0">
                     <div class="row h-100">
-                        <div class="col-7">
+                        <div class="col-6">
                             <div class="col-12 row p-0 m-0  w-100 h-25">
                                 <div class="col-3">
                                     &nbsp;
@@ -45,12 +48,12 @@ $e=0;
                                     alt="Mesh4All Control">
                             </div>
                         </div>
-                        <div class="col-5 p-0 m-0">
+                        <div class="col-6 p-0 m-0 ">
                             <div class="col-12 row h-25 p-0 m-0">
                                 &nbsp;
                             </div>
                             <div class="col-12 h-100">
-                                <div class="col-10 content-services">
+                                <div class="col-9 content-services">
                                     <?php the_content(); ?>
                                 </div>
                                 <div class="col-2">
@@ -60,7 +63,8 @@ $e=0;
                         </div>
                     </div>
                 </div>
-            <?php $i++; 
+                <?php 
+                $i++; 
             endwhile; 
             wp_reset_postdata();
         }else{
