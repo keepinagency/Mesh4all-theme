@@ -143,7 +143,7 @@ $posts = new WP_Query(array(
                             <div class="col-7">
                                 &nbsp;
                             </div>
-                            <div class="col-5 d-flex flex-column m-auto px-5">
+                            <div class="col-5 m-auto">
                             <?php
                             if ($posts->have_posts()){
                                 while($posts->have_posts()) : $posts->the_post(); 
@@ -168,16 +168,17 @@ $posts = new WP_Query(array(
                                             <a href="#"></a>
                                         </div-->
                                         <!--a href="#opensource" class="btnopensource pb-2" -->
-                                            <div class="btnopensource w-100 pt-3 mb-2" 
+                                            <div class="btnopensource w-100 mb-2" 
                                                 id="<?=$tagcolor?>"
                                                 style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                                         background-size:contain;
+                                                        background-position:center;
                                                         height:8vh;"
                                                 onclick="clickbtn(this.id);"
                                                 onmouseover="changeon(this.id);" 
                                                 onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
                                                 alt="Mesh4All Comms Buttons <?=$tagcolor?>">
-                                                <div class="w-100" style="color:<?=$col?>"><?php the_title(); ?></div>
+                                                <div class="w-100 h-100" style="color:<?=$col?>; padding-top:1rem;"><?php the_title(); ?></div>
                                             </div>
                                         <!--/a-->
                                         <?php
