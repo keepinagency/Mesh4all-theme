@@ -199,6 +199,23 @@ OPEN SOURCE
 }
 .btnopensource{
   cursor: pointer;
+  text-decoration: none;
+  
+}
+.btnopensource div{
+  text-align: left;
+  color: #ddd;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.btnopensource div span{
+  padding-left: 25%;
+}
+.btnopensource:hover span{
+  color:#333;
+  text-align: right;
+  font-weight: bold;
 }
 
 /*****************
