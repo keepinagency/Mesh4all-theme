@@ -15,12 +15,11 @@ $posts = new WP_Query(array(
                 class="p-0 m-0 w-100 flipimg flipandrotate180  "
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
-    <div class="row p-0 m-0 h-100 w-100 " id="bgopensource"
-        style="height:70%;
-                background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_16x9.png'?>') no-repeat;
-                background-size:cover;
-                background-position:left;">
-        <div class="col-5 p-0 m-0 h-100">
+    <div class="row p-0 m-0" id="bgopensource"
+        style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_16x9.png'?>') no-repeat;
+               background-size:cover;
+               background-position:left; max-height:100%;">
+        <div class="col-5 p-0 m-0 h-100 ">
             
             <div class="p-0 m-0 h-100 d-flex flex-row ">
                 <div class="col-3 p-0 m-0">
@@ -129,20 +128,18 @@ $posts = new WP_Query(array(
             </div>
 
         </div>
-        <div class="col-7 p-0 m-0" 
+        <div class="col-7 p-0 m-0 h-100" 
                 style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_ss16x9.png'?>') no-repeat;
                         background-size:auto;
                         background-position:right;">
-            <div class="col-12 p-0 m-0 h-25"
-                    style="height:10%;">
+            <div class="col-12 p-0 m-0 h-25">
                 &nbsp;
             </div>
-            <div class="col-12 h-50 p-0 m-0 d-flex flex-row" 
-                >
+            <div class="col-12 h-50 p-0 m-0 d-flex flex-row" >
                 <div class="col-7">
                     &nbsp;
                 </div>
-                <div class="col-5 m-auto">
+                <div class="col-5 d-flex align-content-stretch flex-wrap">
                 <?php
                 if ($posts->have_posts()){
                     while($posts->have_posts()) : $posts->the_post(); 
@@ -157,21 +154,20 @@ $posts = new WP_Query(array(
                                 $col = "#333";
                             }
                             ?>
-                            <div class="col-12 mb-2  d-flex flex-row" style="height:12,5%;">
-                                <div class="col-2 p-0 m-0">
+                            <div class="col-12 row mb-2">
+                                <!--div class="col-2 p-0 m-0 ">
                                     &nbsp;
-                                </div>    
-                                <div class="col-8 btnopensource" 
+                                </div-->    
+                                <div class="col-12 btnopensource" 
                                     id="<?=$tagcolor?>"
                                     style="background:url('<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-'.$on.'-.png'?>') no-repeat;
                                             background-size:contain;
-                                            background-position:center;
-                                            height:8vh;"
+                                            background-position:center;"
                                     onclick="clickbtn(this.id);"
                                     onmouseover="changeon(this.id);" 
                                     onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
                                     alt="Mesh4All Comms Buttons <?=$tagcolor?>">
-                                    <div class="w-100 h-100" style="color:<?=$col?>; padding-top:1rem;"><?php the_title(); ?></div>
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" style="color:<?=$col?>; "><?php the_title(); ?></div>
                                 </div>
                             </div>
                             <?php
@@ -233,8 +229,7 @@ $posts = new WP_Query(array(
                     <input type="hidden" id="btnopen_sel" value="orange"> 
                 </div>
             </div>
-            <div class="col-12 p-0 m-0 h-25"
-                    style="height:10%;">
+            <div class="col-12 p-0 m-0 h-25 ">
                 &nbsp;
             </div>
         </div>
