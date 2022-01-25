@@ -314,15 +314,16 @@ Botones navegación carousel
   border-color: #f8f9fa;
   border-radius: 8px !important;
 }
-.pagos a{
+/*.pagos a{
   text-decoration: none;
   text-align: center;
   color: #f8f9fa;
   border: #fff;
-}
+}*/
 .nopagos {
   font-family: 'Gotham-Bold';
   text-transform: uppercase;
+  text-decoration: none;
   padding: 10px;
   margin: 5px 10px 10px 5px;
   /*color: #313233;*/
