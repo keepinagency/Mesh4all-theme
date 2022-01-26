@@ -75,12 +75,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
@@ -128,12 +123,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
@@ -181,12 +171,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
@@ -234,12 +219,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
@@ -287,12 +267,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
@@ -340,12 +315,7 @@ $i=0;
                 <div class="row h-100">
                     <div class="col-7">
                         <div class="col-12 row p-0 m-0  w-100 h-25">
-                            <div class="col-3">
-                                &nbsp;
-                            </div>
-                            <div class="col-9 d-flex align-items-center ">
-                                <h1>SERVICIOS</h1>
-                            </div>
+                            &nbsp;
                         </div>
                         <div class="col-12 row  p-0 m-0  
                                     d-flex align-items-center justify-content-center">
