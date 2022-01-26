@@ -46,6 +46,10 @@ body {
     color: #fff !important;
 }
 
+.container-fluid{
+  z-index: 1;
+}
+
 h1{
   font-family: 'Gotham-Bold';
 }
@@ -154,6 +158,9 @@ Unete
 /*
   Nosotros
 */
+#nosotros{
+  z-index: 1;
+}
 .conteNosotros h5{
   font-size: 1.4vw;
   font-weight: bold;

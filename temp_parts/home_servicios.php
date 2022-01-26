@@ -7,15 +7,15 @@ $posts_slide = new WP_Query(array(
     ));
 $i=0;
 ?>
-<div class="container-slider p-0 m-0" id="servicios">
+<div class="container-slider p-0 m-0" id="servicios" style="z-index:1;">
     <!-- Contenedor de los Slider -->
     <img src="<?= mesh4all_IMG.'background-line-waveF.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
-                style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
+                style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:1">
 
     <div id="miCarousel" 
-            class="carousel slide row ratio ratio-16x9 p-0 m-0" 
-            data-ride="carousel">
+            class="carousel  row ratio ratio-16x9 p-0 m-0" 
+            data-ride="carousel" style="z-index:2;">
 
         <div class="carousel-inner h-100 p-0 w-100">
         <?php 

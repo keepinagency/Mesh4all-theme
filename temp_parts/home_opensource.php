@@ -9,7 +9,7 @@ $posts = new WP_Query(array(
 ));
 
 ?>
-<div class="sec-opensource ratio ratio-16x9 p-0 m-0" id="opensource">
+<div class="sec-opensource ratio ratio-16x9 p-0 m-0" id="opensource" style="z-index:1;">
 
     <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100 flipimg flipandrotate180  "
@@ -19,7 +19,7 @@ $posts = new WP_Query(array(
         style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_16x9.png'?>') no-repeat;
                background-size:cover;
                background-position:left; max-height:100%;">
-        <div class="col-5 p-0 m-0 h-100 ">
+        <div class="col-5 p-0 m-0 h-100 " id="hard-free">
             
             <div class="p-0 m-0 h-100 d-flex flex-row ">
                 <div class="col-3 p-0 m-0">

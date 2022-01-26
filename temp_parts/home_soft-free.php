@@ -5,15 +5,12 @@ $var = new WP_Query(array(
     'category_name' => 'soft-free',
     ));
 ?>
-<section class="row soft-free mb-lg-5 p-0 m-0">
+<section class="row soft-free mb-lg-5 p-0 m-0" style="z-index:1;" id="soft-free">
   <img src="<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>" alt="Mesh4All" 
                 class="p-0 m-0" id="imgbg_soft"
-                style="z-index:-5; height:auto; max-width:100%; position:absolute;">
-
-
-  <div class="ratio ratio-16x9 mb-lg-5 pb-lg-5">
-
-    <div class="col-lg-2">
+                style="z-index:1; height:auto; max-width:100%; position:absolute;">
+  <div class="ratio ratio-16x9" style="z-index:2;">
+    <div class="col-lg-1">
       &nbsp;
     </div>
     <div class="col-lg-9 p-0 m-0">
