@@ -114,7 +114,7 @@ $var = new WP_Query(array(
                 <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
                   <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" onclick="jQuery('#blue').click();" href="#blue_soft">
+                <a class="linktextb" onclick="jQuery('#blue_soft').click();" href="#blue_soft">
                   <div class="circle">&nbsp;</div>
                 </a>
                 <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
