@@ -31,7 +31,7 @@ $posts = new WP_Query(array(
                 </div>
                 <div class="col-9 p-0 m-0">
                     <h1 class="pt-5">OPEN SOURCE</h1>
-                    <h2 class=" pt-2">HARD-FREE</h2>
+                    <h3 class=" pt-2">HARD-FREE</h3>
                     <!-- CONTENIDO DINÁMICO -->
                 <?php
                 if ($posts->have_posts()){
