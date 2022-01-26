@@ -9,35 +9,40 @@ $var = new WP_Query(array(
   <img src="<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>" alt="Mesh4All" 
                 class="p-0 m-0" id="imgbg_soft"
                 style="z-index:-5; height:auto; max-width:100%; position:absolute;">
-  <div class="ratio ratio-16x9">
-    <div class="col-lg-1">
+
+
+  <div class="ratio ratio-16x9 mb-lg-5 pb-lg-5">
+
+    <div class="col-lg-2">
       &nbsp;
     </div>
-    <div class="col-lg-10 mt-lg-5">
-      <div class="col-lg-3 d-flex justify-content-lg-center">
+    <div class="col-lg-9 p-0 m-0">
+      <div class="col-lg-5 p-0 m-0 d-flex justify-content-lg-center">
         <h1 class="text-uppercase">soft-free</h1>
       </div>
     </div>
     <div class="col-lg-1">
         &nbsp;
     </div>
-    <div class="row p-0 m-0">
+    
+    <div class="row p-0 m-0 mt-lg-5">
         <div class="col-lg-5 d-flex justify-content-lg-end p-lg-0 m-lg-0" >
             <!--img src="<?php echo get_template_directory_uri() . '/img/móvil.png'; ?>"-->
             &nbsp;
         </div>
-        <div class="col-lg-7 p-lg-0 m-lg-0 ">
+        <div class="col-lg-6 mb-lg-5 pb-lg-5">
           <div class="col-lg-12 p-lg-0 m-lg-0">
-            <div class="row mt-5 p-lg-0 m-lg-0">
-              <div class="col-3 linktext pagos" onclick="clicklnk(this.id);" role="button"
+            <div class="row p-lg-0 m-lg-0">
+
+              <div class="linktext pagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#yellow_soft_c" id="yellow_soft"
                   aria-controls="#yellow_soft_c" aria-expanded="true">Pagos</div>
 
-              <div class="col-3 linktext nopagos" onclick="clicklnk(this.id);" role="button"
+              <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#blue_soft_c" id="blue_soft"
                   aria-controls="blue_soft_c" aria-expanded="true">Meshers</div>
 
-              <div class="col-3 linktext nopagos" onclick="clicklnk(this.id);" role="button"
+              <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#green_soft_c" id="green_soft"
                   aria-controls="green_soft_c" aria-expanded="true">Wallet</div>
 
@@ -57,11 +62,11 @@ $var = new WP_Query(array(
           </div>
           <div class="p-lg-4 m-lg-1 soft-free-content" id="areaContent_soft">
 
-            <div id="yellow_soft_c" class="collapse multi-collapse show border-0 ">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
+            <div id="yellow_soft_c" class="collapse multi-collapse show border-0">
+              <p class="p-lg-0 m-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
                 Ut sit amet mauris in justo tristique porttitor. Vivamus egestas purus sit amet iaculis euismod. Donec sagittis malesuada vestibulum. 
                 Vestibulum ultricies pretium feugiat. Nunc mattis mauris vel pharetra porta. Integer ornare porttitor tellus vitae dapibus.</br></br>
-                Phasellus ultricies odio nibh, non facilisis tellus feugiat a.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
@@ -105,17 +110,17 @@ $var = new WP_Query(array(
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
                 Ut sit amet mauris in justo tristique porttitor. Vivamus egestas purus sit amet iaculis euismod. Donec sagittis malesuada vestibulum. 
                 Vestibulum ultricies pretium feugiat. Nunc mattis mauris vel pharetra porta. Integer ornare porttitor tellus vitae dapibus.</br></br>
-                Phasellus ultricies odio nibh, non facilisis tellus feugiat a.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <!--div class="col-12 p-lg-0 m-lg-0 border">
-                <a class="linktextb pr-2" data-toggle="collapse" href="#pagos" aria-controls="pagos" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#meshers" aria-controls="meshers" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#wallet" aria-controls="wallet" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#agenda" aria-controls="agenda" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#usuario" aria-controls="usuario" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#social" aria-controls="social" aria-expanded="true">●</a>
-              </div-->
+            <div class="col-12 m-lg-5 p-lg-5">
+                <a class="linktextb pr-2" data-toggle="collapse" href="#yellow_soft_c" aria-controls="yellow_soft_c" aria-expanded="true">●</a>
+                <a class="linktextb pr-2" data-toggle="collapse" href="#blue_soft_c" aria-controls="meshers" aria-expanded="true">●</a>
+                <a class="linktextb pr-2" data-toggle="collapse" href="#green_soft_c" aria-controls="wallet" aria-expanded="true">●</a>
+                <a class="linktextb pr-2" data-toggle="collapse" href="#purple_soft_c" aria-controls="agenda" aria-expanded="true">●</a>
+                <a class="linktextb pr-2" data-toggle="collapse" href="#orange_soft_c" aria-controls="usuario" aria-expanded="true">●</a>
+                <a class="linktextb pr-2" data-toggle="collapse" href="#red_soft_c" aria-controls="social" aria-expanded="true">●</a>
+              </div>
           </div>
         </div>
     </div>
