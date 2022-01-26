@@ -12,13 +12,14 @@ $posts = new WP_Query(array(
     <!-- border transparente arriba -->
     <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 rotateimg180"
-                style=" height:auto; max-width:100%; position:absolute;z-index:1;">
+                style=" height:auto; max-width:100%; position:absolute;z-index:-1;">
 
     <img src="<?= mesh4all_IMG.'nosotros-meshback-v2.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100"
-                style="height: auto; max-width:100%; position:absolute; z-index:1">
+                style="height: auto; max-width:100%; position:absolute; z-index:-1">
 
-    <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9" style="z-index: 2;">
+    <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9"
+        >
         <div class="row p-0 m-0" id="areaContent">
             <div class="col-lg-12 row p-0 m-0 h-25">
                 &nbsp;
@@ -26,18 +27,24 @@ $posts = new WP_Query(array(
             <div class="col-lg-12 row p-0 m-0 h-75">
                 
                 <div class="row p-0 m-0 w-50">
-                    
-                    <div class="p-0 m-0" style="position: absolute; top:27.5%; left: 27%">
-                        <!-- VISION -->
-                        <a class="linkContent" 
-                            data-toggle="collapse" 
-                            data-parent="#areaContent"
-                            href="#conteVision" 
-                            role="button" aria-expanded="false" 
-                            aria-controls="conteMision">Visión</a>
+                    <div class="p-0 m-0 h-50 w-50 d-flex align-items-end ">
+                        
+                        <div class="w-100 h-50 p-0 m-0 d-flex flex-row ">
+                            <!-- VISION -->
+                            <div class="col-4 m-0 p-0">&nbsp;</div>
+                            <div class="col-8 m-0 p-0 
+                                        d-flex align-items-center px-4 pt-3
+                                        "><a class="linkContent" 
+                                            data-toggle="collapse" 
+                                            data-parent="#areaContent"
+                                            href="#conteVision" 
+                                            role="button" aria-expanded="false" 
+                                            aria-controls="conteMision">Visión</a></div>
+                        </div>
+
                     </div>
 
-                    <div class="p-0 m-0" style="position: absolute; top:52%; left: 10%">
+                    <div class="h-50 w-50 pt-3 px-4">
                         <!-- MISION -->
                         <a class="linkContent" 
                             data-toggle="collapse" 
@@ -48,16 +55,22 @@ $posts = new WP_Query(array(
                             onClick="">Misión</a>
                     </div>
 
-                    <div class="p-0 m-0" style="position: absolute; top:77%; left: 26.5%">
-                        <!-- VALORES -->
-                        <a class="linkContent" 
-                            data-toggle="collapse" 
-                            data-parent="#areaContent"
-                            href="#conteValores" 
-                            role="button" aria-expanded="true" 
-                            aria-controls="conteValores"
-                            onClick="">Valores</a> 
+                    <div class="h-25 w-100 d-flex flex-row p-0 m-0"
+                            style="height: 28%;">        
+                        <div class="col-6 m-0 p-0">&nbsp;</div>
+                        <div class="col-6 m-0 p-0 px-3
+                                    d-flex align-items-end
+                                    "><a class="linkContent" 
+                                            data-toggle="collapse" 
+                                            data-parent="#areaContent"
+                                            href="#conteValores" 
+                                            role="button" aria-expanded="true" 
+                                            aria-controls="conteValores"
+                                            onClick="">Valores</a> <!-- VALORES --></div>
                         
+                    </div>
+                    <div class="w-100" style="height: 22%;">
+                        &nbsp;
                     </div>
                 </div>
 

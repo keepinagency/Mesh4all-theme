@@ -9,29 +9,30 @@
     </head>
     <body <?php body_class();?> class="p-0 m-0">
         <?php wp_body_open();?>
+<!-- The video -->
+<video autoplay muted loop id="bgVideoHome" class="p-0 m-0 " 
+    style="max-width:100%; height: auto; position:fixed; top:0;">
+    <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
+</video>
 <div class="container-fluid m-auto p-0 m-0 h-100 d-none d-lg-block" >
     <!-- 
         overheader: contenedor de todo el header incluyendo ÚNETE
                     El div cierra en Unete
     -->
     <div class="overheader m-0 p-0 ratio ratio-16x9">
-        <!-- The video -->
-        <video autoplay muted loop id="bgVideoHome" class="p-0 m-0 ratio" 
-            style="max-width:100%; height: auto; position:absolute; top:0; z-index:-2;">
-            <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
-        </video>
+        
 
         <!-- border transparente abajo -->
         <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" class="p-0 m-0"
-                style="z-index:-1; width:100%; position:absolute; bottom:0;">
+                style="z-index:1; width:100%; position:absolute; bottom:0;">
         
         <!-- mesh-01_full-hd2 -->
         <img src="<?= mesh4all_IMG.'home-meshback_v2.png'?>" alt="Mesh4All" class="p-0 m-0"
                 style="z-index:1; height: auto; max-width:100%; position:absolute; top:0;">
 
-        <div class="header p-0 m-0"> <!-- border border-warning  -->
+        <div class="header p-0 m-0"  >
             
-            <nav class="navbar navbar-dark fixed-top col-12 pt-4 pb-3"> <!-- border border-warning  -->
+            <nav class="navbar navbar-dark fixed-top col-12 pt-4 pb-3" style="z-index: 10;">
                 <!--Logo-->
                 <div class="container-logo col-lg-3 d-flex justify-content-end p-0 m-0">
                     <a class="navbar-brand m-0 p-0 pr-2"  href="<?php echo get_home_url(); ?>">
