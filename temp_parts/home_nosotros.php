@@ -8,7 +8,7 @@ $posts = new WP_Query(array(
 ?>
 
 
-<div class="sec-nosotros p-0 m-0" id="nosotros" style="z-index: 2;">
+<div class="sec-nosotros p-0 m-0" id="nosotros" style="z-index: 1;">
     <!-- border transparente arriba -->
     <img src="<?= mesh4all_IMG.'borde-black-transp.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 rotateimg180"
@@ -20,15 +20,21 @@ $posts = new WP_Query(array(
 
     <div id="overnosotros" class="row col-12 p-0 m-0 ratio ratio-16x9" style="z-index: 2;">
         <div class="row p-0 m-0" id="areaContent">
-            <div class="col-lg-12 row p-0 m-0 h-25">
-                &nbsp;
+            <div class="col-lg-12 row p-0 m-0 h-25 ">
+                <div class="col-1">
+                    &nbsp;
+                </div>
+                <div class="col-11 d-flex align-items-center ">
+                    <h1>NOSOTROS</h1>
+                </div>
             </div>
             <div class="col-lg-12 row p-0 m-0 h-75">
                 
-                <div class="row p-0 m-0 w-50">
+                <div class="row p-0 m-0 w-50" style="z-index:8;">
                     
-                    <div class="p-0 m-0" style="position: absolute; top:27.5%; left: 27%">
-                        <!-- VISION -->
+                    <!-- VISION -->
+                    <div class="p-0 m-0" style="position: absolute; top:27.5%; left: 27%;">
+                        
                         <a class="linkContent" 
                             data-toggle="collapse" 
                             data-parent="#areaContent"
@@ -37,8 +43,9 @@ $posts = new WP_Query(array(
                             aria-controls="conteMision">Visión</a>
                     </div>
 
+                    <!-- MISION -->
                     <div class="p-0 m-0" style="position: absolute; top:52%; left: 10%">
-                        <!-- MISION -->
+                        
                         <a class="linkContent" 
                             data-toggle="collapse" 
                             data-parent="#areaContent"
@@ -47,9 +54,10 @@ $posts = new WP_Query(array(
                             aria-controls="conteMision"
                             onClick="">Misión</a>
                     </div>
-
+                    
+                    <!-- VALORES -->
                     <div class="p-0 m-0" style="position: absolute; top:77%; left: 26.5%">
-                        <!-- VALORES -->
+                        
                         <a class="linkContent" 
                             data-toggle="collapse" 
                             data-parent="#areaContent"

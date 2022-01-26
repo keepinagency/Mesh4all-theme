@@ -10,11 +10,11 @@
     <body <?php body_class();?> class="p-0 m-0">
         <?php wp_body_open();?>
 <!-- The video -->
-<video autoplay muted loop id="bgVideoHome" class="p-0 m-0 " 
-    style="max-width:100%; height: auto; position:fixed; top:0;">
+<video autoplay muted loop id="bgVideoHome" class="p-0 m-0" 
+    style="width:100%; height: auto; position:fixed; top:0;">
     <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
 </video>
-<div class="container-fluid m-auto p-0 m-0 h-100 d-none d-lg-block" >
+<div class="container-fluid m-auto p-0 m-0 h-100 d-none d-lg-block " >
     <!-- 
         overheader: contenedor de todo el header incluyendo ÚNETE
                     El div cierra en Unete

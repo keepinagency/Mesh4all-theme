@@ -44,11 +44,9 @@ body {
     background-color: #000408;
     font-family: 'Gotham-Book';
     color: #fff !important;
+    overflow-x: hidden;
 }
 
-.container-fluid{
-  z-index: 1;
-}
 
 h1{
   font-family: 'Gotham-Bold';

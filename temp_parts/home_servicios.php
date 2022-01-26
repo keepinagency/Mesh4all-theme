@@ -16,7 +16,14 @@ $i=0;
     <div id="miCarousel" 
             class="carousel  row ratio ratio-16x9 p-0 m-0" 
             data-ride="carousel" style="z-index:2;">
-
+        <div class="col-12 row p-0 m-0  w-100 h-25">
+            <div class="col-1">
+                &nbsp;
+            </div>
+            <div class="col-11 d-flex align-items-center ">
+                <h1>SERVICIOS</h1>
+            </div>
+        </div>
         <div class="carousel-inner h-100 p-0 w-100">
         <?php 
         
@@ -31,12 +38,7 @@ $i=0;
                     <div class="row h-100">
                         <div class="col-6">
                             <div class="col-12 row p-0 m-0  w-100 h-25">
-                                <div class="col-3">
-                                    &nbsp;
-                                </div>
-                                <div class="col-9 d-flex align-items-center ">
-                                    <h1>SERVICIOS</h1>
-                                </div>
+                                &nbsp;
                             </div>
                             <div class="col-12 row  p-0 m-0  
                                         d-flex align-items-center justify-content-center">
