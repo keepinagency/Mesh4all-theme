@@ -38,7 +38,7 @@
     <footer id="" class="col-lg-12 pr-lg-5 p-0 m-0">
         <div class="col-lg-12 pt-lg-3 barrafooter">  </div>
 
-        <div class="row col-lg-12 p-0 m-0 text-light footer-social">
+        <div class="row col-lg-12 p-0 m-0 pt-3 text-light footer-social">
             <div class="col-lg-1">&nbsp</div>
             
             <div class="col-lg-5 m-lg-0 p-lg-0 align-self-center">
@@ -104,7 +104,7 @@
             </div-->
         </div>
         <div class="col-lg-12 pt-lg-3 copyright d-flex justify-content-lg-center">
-            <p class="text-dark fw-bold fs-5 text">
+            <p class="fw-bold text">
                     <?php if (empty($copyright)) 
                         { echo "TURPIAL DEV 2021"; }
                         else{ 
