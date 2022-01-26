@@ -308,6 +308,8 @@ OPEN SOURCE
   font-family: 'Gotham-Bold';
 }
 .footer-social{
+  font-family: 'Gotham-Bold';
+  font-size: .8rem;
   background-color: #171717;
 }
 .copyright{
