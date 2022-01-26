@@ -9,7 +9,7 @@ $var = new WP_Query(array(
   <img src="<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>" alt="Mesh4All" 
                 class="p-0 m-0" id="imgbg_soft"
                 style="z-index:1; height:auto; max-width:100%; position:absolute;">
-  <div class="ratio ratio-16x9" style="z-index:2;">
+  <div class="ratio ratio-16x9 mt-lg-5" style="z-index:2;">
     <div class="col-lg-1">
       &nbsp;
     </div>
@@ -27,7 +27,7 @@ $var = new WP_Query(array(
             <!--img src="<?php echo get_template_directory_uri() . '/img/móvil.png'; ?>"-->
             &nbsp;
         </div>
-        <div class="col-lg-6 mb-lg-5 pb-lg-5">
+        <div class="col-lg-6 mt-lg-5 mb-lg-5 pb-lg-5">
           <div class="col-lg-12 p-lg-0 m-lg-0">
             <div class="row p-lg-0 m-lg-0">
 
@@ -57,7 +57,7 @@ $var = new WP_Query(array(
             </div>
             <input type="hidden" id="btnsoft_sel" value="yellow_soft"> 
           </div>
-          <div class="p-lg-4 m-lg-1 soft-free-content" id="areaContent_soft">
+          <div class="p-lg-3 m-lg-1 mt-lg-4 soft-free-content" id="areaContent_soft">
 
             <div id="yellow_soft_c" class="collapse multi-collapse show border-0">
               <p class="p-lg-0 m-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
@@ -110,13 +110,25 @@ $var = new WP_Query(array(
                 Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <div class="col-12 m-lg-5 p-lg-5">
-                <a class="linktextb pr-2" data-toggle="collapse" href="#yellow_soft_c" aria-controls="yellow_soft_c" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#blue_soft_c" aria-controls="meshers" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#green_soft_c" aria-controls="wallet" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#purple_soft_c" aria-controls="agenda" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#orange_soft_c" aria-controls="usuario" aria-expanded="true">●</a>
-                <a class="linktextb pr-2" data-toggle="collapse" href="#red_soft_c" aria-controls="social" aria-expanded="true">●</a>
+            <div class="col-12 div-linktextb">
+                <a class="linktextb" data-toggle="collapse" href="#yellow_soft_c" aria-controls="#yellow_soft_c" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
+                <a class="linktextb" data-toggle="collapse" href="#blue_soft_c" aria-controls="#meshers" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
+                <a class="linktextb" data-toggle="collapse" href="#green_soft_c" aria-controls="#wallet" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
+                <a class="linktextb" data-toggle="collapse" href="#purple_soft_c" aria-controls="#agenda" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
+                <a class="linktextb" data-toggle="collapse" href="#orange_soft_c" aria-controls="#usuario" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
+                <a class="linktextb" data-toggle="collapse" href="#red_soft_c" aria-controls="#social" aria-expanded="true">
+                  <span class="circle rounded-circle">&nbsp;</span>
+                </a>
               </div>
           </div>
         </div>

@@ -287,11 +287,20 @@ OPEN SOURCE
   border-color: #f8f9fa;
   border-radius: 1rem !important;
 }
+.div-linktextb{
+  margin: 5rem 0 0 0;
+}
 .linktextb{
-  margin: 0.7rem 1.5rem 0.7rem 1.5rem;
+  margin: 0.7rem 1.5rem 0.7rem 0;
   color: #fff;
   text-decoration: none;
 }
+.circle{
+  background: white;
+  display: inline;
+  padding: 10px;
+}
+
 
 /*
   Footer
