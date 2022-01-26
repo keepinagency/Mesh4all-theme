@@ -16,7 +16,7 @@ $posts = new WP_Query(array(
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
     
     <img src="<?= mesh4all_IMG.'opensource/HF-pic-orange-.png'?>" alt="Mesh4All" 
-                class="p-0 m-0 w-100 flipimg flipandrotate180  " id="bgopensource"
+                class="p-0 m-0 w-100  " id="bgopensource"
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
     <div class="row p-0 m-0" 
