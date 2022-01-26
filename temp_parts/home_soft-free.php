@@ -122,7 +122,7 @@ $var = new WP_Query(array(
 
     function hideText(){
         //jQuery('.soft-free-content div').hide('true');
-        jQuery('.collapse').collapse('hide');
+        jQuery('#soft-free .collapse').collapse('hide');
     }
 
 
