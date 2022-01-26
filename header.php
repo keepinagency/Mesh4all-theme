@@ -11,7 +11,7 @@
         <?php wp_body_open();?>
 <!-- The video -->
 <video autoplay muted loop id="bgVideoHome" class="p-0 m-0" 
-    style="width:100%; height: auto; position:fixed; top:0;">
+    style="min-width:100%; height: 100%; position:fixed; top:0;">
     <source src="<?=mesh4all_IMG.'video-backdrop-mesh.mp4'?>" type="video/mp4">
 </video>
 <div class="container-fluid m-auto p-0 m-0 h-100 d-none d-lg-block " >
