@@ -15,7 +15,7 @@ $var = new WP_Query(array(
             &nbsp;
         </div>
         <div class="col-11 d-flex align-items-center ">
-          <h2 class="text-uppercase">soft-free</h2>
+          <h3 class="text-uppercase">soft-free</h3>
         </div>
     </div>
     
