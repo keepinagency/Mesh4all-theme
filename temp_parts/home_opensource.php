@@ -29,7 +29,7 @@ $posts = new WP_Query(array(
                 <div class="col-3 p-0 m-0">
                     &nbsp;
                 </div>
-                <div class="col-9 p-0 m-0 ">
+                <div class="col-9 p-0 m-0">
                     <h1 class="pt-5">OPEN SOURCE</h1>
                     <h5 class="linkContent pt-2">HARD-FREE</h5>
                     <!-- CONTENIDO DINÁMICO -->
@@ -44,7 +44,7 @@ $posts = new WP_Query(array(
                                 $display = "block";
                             }
                             ?>
-                            <div class="pt-5 pb-3 content-hardfree" 
+                            <div class="pt-5 pb-3 col-10 content-hardfree" 
                                 style="display:<?= $display ?>;"
                                 id="cont-<?=$post_tags[0]->name?>">
                                 <?php the_content(); ?>
