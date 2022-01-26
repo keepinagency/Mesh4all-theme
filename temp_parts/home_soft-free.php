@@ -33,7 +33,7 @@ $var = new WP_Query(array(
 
               <div class="linktext pagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#yellow_soft_c" id="yellow_soft"
-                  aria-controls="#yellow_soft_c" aria-expanded="true">Pagos</div>
+                  aria-controls="#yellow_soft_c" aria-expanded="true">Pay2web</div>
 
               <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#blue_soft_c" id="blue_soft"
@@ -45,69 +45,46 @@ $var = new WP_Query(array(
 
               <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#purple_soft_c" id="purple_soft"
-                  aria-controls="purple_soft_c" aria-expanded="true">Agenda</div>
+                  aria-controls="purple_soft_c" aria-expanded="true">Apps</div>
 
               <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#orange_soft_c" id="orange_soft"
-                  aria-controls="orange_soft_c" aria-expanded="true">Usuario</div>
+                  aria-controls="orange_soft_c" aria-expanded="true">Github</div>
 
               <div class="linktext nopagos" onclick="clicklnk(this.id);" role="button"
                   data-toggle="collapse" href="#red_soft_c" id="red_soft"
-                  aria-controls="red_soft_c" aria-expanded="true">Social</div>
+                  aria-controls="red_soft_c" aria-expanded="true">Community</div>
             </div>
             <input type="hidden" id="btnsoft_sel" value="yellow_soft"> 
           </div>
           <div class="p-lg-3 m-lg-1 mt-lg-4 soft-free-content" id="areaContent_soft">
 
             <div id="yellow_soft_c" class="collapse multi-collapse show border-0">
-              <p class="p-lg-0 m-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
-                Ut sit amet mauris in justo tristique porttitor. Vivamus egestas purus sit amet iaculis euismod. Donec sagittis malesuada vestibulum. 
-                Vestibulum ultricies pretium feugiat. Nunc mattis mauris vel pharetra porta. Integer ornare porttitor tellus vitae dapibus.</br></br>
-                Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <p class="p-lg-0 m-lg-0">Acceda a la web desde dentro del mesh. Tratando de establecer un mercado de datos en la malla local.</br></br>
               </p>
             </div>
 
             <div id="blue_soft_c" class="collapse multi-collapse border-0">
-              <p>Pellentesque condimentum, sem in lobortis consectetur, orci sapien pharetra libero, quis convallis velit odio et nunc.
-              Vestibulum bibendum gravida metus at tempus. Morbi ultrices lectus eget ipsum laoreet pretium. Quisque vitae iaculis odio. 
-              Integer venenatis ornare leo, maximus euismod nulla interdum eget. Nam in mollis sem. Pellentesque nec sollicitudin sem, a consectetur nibh. 
-              Etiam eget velit et leo rutrum feugiat.</br></br> 
-              Sed pulvinar sagittis nulla eu mattis. Suspendisse non tincidunt massa. Vestibulum convallis facilisis tortor.
-            </p>
+              <p>Conviértete en un mesher, aprende a hacerlo tú mismo.</br></br> 
             </div>
 
             <div id="green_soft_c" class="collapse multi-collapse border-0">
-              <p>Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
-                Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
-                In eget est tincidunt, vestibulum urna eget, rhoncus elit.</br></br>
-                Phasellus eget finibus lorem. Pellentesque eleifend egestas turpis sed malesuada. Nulla sed mattis diam. 
+              <p>Use sus billeteras en el mesh, use bitcoin u otras criptomonedas. Lo que ya funciona en su dispositivo funcionará en el mesh.</br></br>
               </p>
             </div>
 
             <div id="purple_soft_c" class="collapse multi-collapse border-0">
-              <p>Nunc lobortis lectus massa, vestibulum porta purus venenatis nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Nunc eros elit, faucibus ac pharetra sit amet, ultricies in purus. Donec condimentum leo eros, hendrerit iaculis diam euismod a. 
-                Morbi sit amet tellus nec metus condimentum vulputate ac a orci. Pellentesque mattis lectus at porttitor rutrum. 
-                In eget est tincidunt, vestibulum urna eget, rhoncus elit.</br></br>
-                Phasellus eget finibus lorem. Pellentesque eleifend egestas turpis sed malesuada. Nulla sed mattis diam. 
+              <p>Usa tus aplicaciones favoritas en el mesh.</br></br>
               </p>
             </div>
 
             <div id="orange_soft_c" class="collapse multi-collapse border-0">
-              <p>Pellentesque condimentum, sem in lobortis consectetur, orci sapien pharetra libero, quis convallis velit odio et nunc.
-                Vestibulum bibendum gravida metus at tempus. Morbi ultrices lectus eget ipsum laoreet pretium. Quisque vitae iaculis odio. 
-                Integer venenatis ornare leo, maximus euismod nulla interdum eget. Nam in mollis sem. Pellentesque nec sollicitudin sem, a consectetur nibh. 
-                Etiam eget velit et leo rutrum feugiat.</br></br> 
-                Sed pulvinar sagittis nulla eu mattis. Suspendisse non tincidunt massa. Vestibulum convallis facilisis tortor.
+              <p>Ver nuestros repositorios todo nuestro trabajo se publicará aquí regularmente</br></br>
               </p>
             </div>
 
             <div id="red_soft_c" class="collapse multi-collapse border-0">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet feugiat ultrices. In vestibulum auctor justo in malesuada. 
-                Ut sit amet mauris in justo tristique porttitor. Vivamus egestas purus sit amet iaculis euismod. Donec sagittis malesuada vestibulum. 
-                Vestibulum ultricies pretium feugiat. Nunc mattis mauris vel pharetra porta. Integer ornare porttitor tellus vitae dapibus.</br></br>
-                Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <p>Acompáñanos y participa, te necesitamos para ayudarnos a construir el mesh de nuestros sueños. Hay muchas maneras de ayudar.</br></br>
               </p>
             </div>
             <div class="col-12 d-flex flex-row div-linktextb">
