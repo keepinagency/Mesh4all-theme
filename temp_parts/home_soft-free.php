@@ -110,24 +110,24 @@ $var = new WP_Query(array(
                 Phasellus ultricies odio nibh, non facilisis tellus feugiat a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <div class="col-12 div-linktextb">
-                <a class="linktextb" data-toggle="collapse" href="#yellow_soft_c" aria-controls="#yellow_soft_c" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+            <div class="col-12 d-flex flex-row div-linktextb">
+                <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" data-toggle="collapse" href="#blue_soft_c" aria-controls="#meshers" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+                <a class="linktextb" onclick="jQuery('#blue').click();" href="#blue_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" data-toggle="collapse" href="#green_soft_c" aria-controls="#wallet" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+                <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" data-toggle="collapse" href="#purple_soft_c" aria-controls="#agenda" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+                <a class="linktextb" onclick="jQuery('#purple_soft').click();" href="#purple_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" data-toggle="collapse" href="#orange_soft_c" aria-controls="#usuario" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+                <a class="linktextb" onclick="jQuery('#orange_soft').click();" href="#orange_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
-                <a class="linktextb" data-toggle="collapse" href="#red_soft_c" aria-controls="#social" aria-expanded="true">
-                  <span class="circle rounded-circle">&nbsp;</span>
+                <a class="linktextb" onclick="jQuery('#red_soft').click();" href="#red_soft">
+                  <div class="circle">&nbsp;</div>
                 </a>
               </div>
           </div>

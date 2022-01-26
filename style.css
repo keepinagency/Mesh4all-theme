@@ -294,11 +294,11 @@ OPEN SOURCE
   text-decoration: none;
 }
 .circle{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
   background: white;
-  display: inline;
-  padding: 10px;
 }
-
 
 /*
   Footer
