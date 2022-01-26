@@ -176,54 +176,79 @@ $posts = new WP_Query(array(
                     endwhile;
                 }else{
                     ?>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="yellow" 
-                            src="<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>"
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-yellow-off.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="orange"
-                            src="<?= mesh4all_IMG.'opensource/HF-orange-on.png'?>" 
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-orange-on.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="red"
-                            src="<?= mesh4all_IMG.'opensource/HF-red-off.png'?>" 
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-red-off.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="purple"
-                            src="<?= mesh4all_IMG.'opensource/HF-purple-off.png'?>" 
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-purple-off.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="blue"
-                            src="<?= mesh4all_IMG.'opensource/HF-blue-off.png'?>" 
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-blue-off.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
-                    <div class="w-100" >
-                        <img class="d-block w-100 p-2 btnopensource" id="green"
-                            src="<?= mesh4all_IMG.'opensource/HF-green-off.png'?>" 
-                            onclick="clickbtn(this.id);"
-                            onmouseover="changeon(this.id);" 
-                            onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-green-off.png'?>');"
-                            alt="Mesh4All Comms Buttons">
-                    </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="yellow"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-yellow-off-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons yellow">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="orange"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-orange-on-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons orange">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="red"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-red-off-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons red">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="purple"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-purple-off-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons purple">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="blue"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-blue-off-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons blue">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-12 row mb-2">
+                                <div class="col-12 btnopensource" 
+                                    id="green"
+                                    style="background:url('<?= mesh4all_IMG.'opensource/HF-green-off-.png'?>') no-repeat;
+                                            background-size:contain;
+                                            background-position:center;"
+                                    onclick="clickbtn(this.id);"
+                                    alt="Mesh4All Comms Buttons green">
+                                    <div class="w-100 h-100 d-flex align-items-center justify-content-center" 
+                                        style="color:<?=$col?>; ">&nbsp;</div>
+                                </div>
+                            </div>
+                    
                 <?php
                 }
                 ?>
