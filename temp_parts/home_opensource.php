@@ -14,9 +14,13 @@ $posts = new WP_Query(array(
     <img src="<?= mesh4all_IMG.'wave-line.png'?>" alt="Mesh4All" 
                 class="p-0 m-0 w-100 flipimg flipandrotate180  "
                 style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
+    
+    <img src="<?= mesh4all_IMG.'opensource/HF-pic-orange-.png'?>" alt="Mesh4All" 
+                class="p-0 m-0 w-100 flipimg flipandrotate180  " id="bgopensource"
+                style="z-index:0; height: auto; max-width:100%; position:absolute; z-index:-4">
 
-    <div class="row p-0 m-0" id="bgopensource"
-        style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_16x9.png'?>') no-repeat;
+    <div class="row p-0 m-0" 
+        style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-orssange-.png'?>') no-repeat;
                background-size:cover;
                background-position:left; max-height:100%;">
         <div class="col-5 p-0 m-0 h-100 " id="hard-free">
@@ -128,10 +132,7 @@ $posts = new WP_Query(array(
             </div>
 
         </div>
-        <div class="col-7 p-0 m-0 h-100" 
-                style="background:url('<?= mesh4all_IMG.'opensource/HF-pic-green_ss16x9.png'?>') no-repeat;
-                        background-size:auto;
-                        background-position:right;">
+        <div class="col-7 p-0 m-0 h-100" >
             <div class="col-12 p-0 m-0 h-25">
                 &nbsp;
             </div>
@@ -164,8 +165,8 @@ $posts = new WP_Query(array(
                                             background-size:contain;
                                             background-position:center;"
                                     onclick="clickbtn(this.id);"
-                                    onmouseover="changeon(this.id);" 
-                                    onmouseout="changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
+                                    onmouseover="//changeon(this.id);" 
+                                    onmouseout="//changeoff(this.id,'<?= mesh4all_IMG.'opensource/HF-'.$tagcolor.'-off-.png'?>');"
                                     alt="Mesh4All Comms Buttons <?=$tagcolor?>">
                                     <div class="w-100 h-100 d-flex align-items-center justify-content-center" style="color:<?=$col?>; "><?php the_title(); ?></div>
                                 </div>
@@ -241,11 +242,15 @@ $posts = new WP_Query(array(
     function clickbtn(idele){
         var selant = jQuery("#btnopen_sel").val();
         //document.getElementById(selant).src='<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off.png';
+        
+        //jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png)');
+        jQuery("#bgopensource").attr('src','<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png');
+        
         jQuery("#"+selant).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+selant+'-off-.png)');
         jQuery("#"+selant+" div").css('color','white');
         jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
         jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
-        jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png)');
+        
         jQuery("#btnopen_sel").val(idele);
         jQuery("#cont-"+selant).hide();
         jQuery("#cont-"+idele).show();
@@ -255,7 +260,8 @@ $posts = new WP_Query(array(
         //document.getElementById(idele).src='<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on.png';
         jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
         jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
-        jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png)');
+        //jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png)');
+        jQuery("#bgopensource").attr('src','<?= mesh4all_IMG.'opensource/HF-pic-'?>'+idele+'-.png');
         // bgopensource HF-pic-blue
     }
     function changeoff(idele,srcele){
@@ -268,7 +274,8 @@ $posts = new WP_Query(array(
             jQuery("#"+idele).css('background-image','url(<?= mesh4all_IMG.'opensource/HF-'?>'+idele+'-on-.png)');
             jQuery("#"+idele+" div").css('color','rgb(30,30,30)');
         }else{
-            jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+btnsel+'-.png)');
+            //jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-'?>'+btnsel+'-.png)');
+            jQuery("#bgopensource").attr('src','<?= mesh4all_IMG.'opensource/HF-pic-'?>'+btnsel+'-.png');
         }
         //jQuery("#bgopensource").css('background-image','url(<?= mesh4all_IMG.'opensource/HF-pic-orange.png'?>');
     }
