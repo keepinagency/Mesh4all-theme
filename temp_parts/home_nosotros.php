@@ -157,6 +157,6 @@ $posts = new WP_Query(array(
     }
 
     function hideText(){
-        jQuery('.collapse').collapse('hide');
+        jQuery('#nosotros .collapse').collapse('hide');
     }
 </script>
