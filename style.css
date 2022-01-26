@@ -50,6 +50,12 @@ body {
 
 h1{
   font-family: 'Gotham-Bold';
+  font-size: 3rem;
+}
+
+h2{
+  font-family: 'Gotham-Bold';
+  font-size: 2vw;
 }
 
 /*
