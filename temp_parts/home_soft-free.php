@@ -9,17 +9,14 @@ $var = new WP_Query(array(
   <img src="<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>" alt="Mesh4All" 
                 class="p-0 m-0" id="imgbg_soft"
                 style="z-index:1; height:auto; max-width:100%; position:absolute;">
-  <div class="ratio ratio-16x9 mt-lg-5" style="z-index:2;">
-    <div class="col-lg-1">
-      &nbsp;
-    </div>
-    <div class="col-lg-9 p-0 m-0">
-      <div class="col-lg-5 p-0 m-0 d-flex justify-content-lg-center">
-        <h1 class="text-uppercase">soft-free</h1>
-      </div>
-    </div>
-    <div class="col-lg-1">
-        &nbsp;
+  <div class="ratio ratio-16x9 " style="z-index:2;">
+    <div class="col-lg-12 row p-0 m-0 h-25 ">
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <div class="col-11 d-flex align-items-center ">
+          <h2 class="text-uppercase">soft-free</h2>
+        </div>
     </div>
     
     <div class="row p-0 m-0 mt-lg-5">
