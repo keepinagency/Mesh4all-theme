@@ -169,7 +169,7 @@ Unete
 }
 
 .linkContent{
-  font-weight: bold;
+  font-weight: bolder;
   color:#ddd;
   text-decoration: none;
   text-transform:capitalize !important;
@@ -199,8 +199,8 @@ Unete
 OPEN SOURCE
 */
 .content-hardfree{
-  line-height: 1.8vw;
-  font-size: 1vw;
+  line-height: 2vw;
+  font-size: 1.2vw;
 }
 .btnopensource{
   cursor: pointer;
