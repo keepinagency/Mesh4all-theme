@@ -17,7 +17,8 @@
         </iframe>
     </div>
     <div class="col-lg-5 text-light mt-lg-5">
-        <form role="form" method="POST" action="contactanos.php">
+        <form role="form" method="POST" action="<?php echo get_template_directory_uri().'/temp_parts/contactanos.php'; ?>" validate>
+        
             <div class="row">
                 <!--div class="form-group col-lg-12 mt-lg-3">
                     <label for="email">NOMBRE:</label>
@@ -43,7 +44,11 @@
                     <label for="ciu" class="mb-lg-3">MENSAJE:</label>
                     <textarea name="textarea" rows="5" cols="20" class="form-control mb-lg-3" id="mensaje" style="border-radius: 10px;"></textarea>
                 </div>
-                <!--button type="submit" class="btn btn-info">Submit</button-->
+                <div class="d-lg-flex justify-content-lg-end">
+                    <!--button type="submit" class="btn btn-primary">Enviar</button-->
+                    <button type="submit" class="btn w-25 btn-submit">Enviar</button>
+                </div>
+                
             </div>      
         </form>
     </div>

@@ -247,6 +247,13 @@ OPEN SOURCE
   border-style: solid;
   border-color: #f8f9fa;
 }
+.btn-submit{
+  color: #f8f9fa;
+  background-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+}
 
 /**************
   SOFT-FREE
