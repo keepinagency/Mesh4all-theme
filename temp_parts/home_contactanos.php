@@ -9,11 +9,11 @@
             <h1>CONTÁCTANOS</h1>
         </div>
         <div class="mb-lg-3">
-            <p>C/ wisi enim ad minim veniam, 23 </br>23654</p>
+            <p>Delaware City, Delaware, EE. UU.</p>
         </div>
-        <iframe class="col-12" 
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30493167.385562003!2d-87.76528053486774!3d21.100184828668755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svenezuela!5e0!3m2!1ses-419!2sve!4v1639670629018!5m2!1ses-419!2sve" 
-            width="400" height="300" style="border:0; border-radius: 2px;" allowfullscreen="" loading="lazy">
+        <iframe col-12
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24602.413642950432!2d-75.61814312381495!3d39.57535021508915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c705f4035c601f%3A0x6d0a5fae529e1221!2sDelaware%20City%2C%20Delaware%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1643302101994!5m2!1ses!2sve" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
     </div>
     <div class="col-lg-5 text-light mt-lg-5">

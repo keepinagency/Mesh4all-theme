@@ -84,26 +84,26 @@ $var = new WP_Query(array(
               <p>Acompáñanos y participa, te necesitamos para ayudarnos a construir el mesh de nuestros sueños. Hay muchas maneras de ayudar.</br></br>
               </p>
             </div>
-            <div class="col-12 d-flex flex-row div-linktextb">
-                <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#blue_soft').click();" href="#blue_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#purple_soft').click();" href="#purple_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#orange_soft').click();" href="#orange_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#red_soft').click();" href="#red_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-              </div>
+            <!--div class="col-12 d-flex flex-row div-linktextb">
+              <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#blue_soft').click();" href="#blue_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#purple_soft').click();" href="#purple_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#orange_soft').click();" href="#orange_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#red_soft').click();" href="#red_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+            </div-->
           </div>
         </div>
     </div>
