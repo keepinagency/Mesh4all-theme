@@ -17,7 +17,7 @@
         </iframe>
     </div>
     <div class="col-lg-5 text-light mt-lg-5">
-        <form role="form" method="POST" action="">
+        <form role="form" method="POST" action="contactanos.php">
             <div class="row">
                 <!--div class="form-group col-lg-12 mt-lg-3">
                     <label for="email">NOMBRE:</label>

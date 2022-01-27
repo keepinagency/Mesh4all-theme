@@ -64,25 +64,25 @@
             </div>
             <div class="col-lg-2 mt-lg-3">
                 <p>
-                    <a class="links" href="<?php echo $urlsocial;?>"><?= $social;?></a></br>
-                    <a class="links" href="<?php echo $urlgithub;?>"><?= $github;?></a></br>
-                    <a class="links" href="<?php echo $urlmedium;?>"><?= $medium;?></a></br>
-                    <a class="links" href="<?php echo $urltwitter;?>"><?= $twitter;?></a></br>
+                    <a class="links" href="<?php echo $urlsocial;?>" target="_blank"><?= $social;?></a></br>
+                    <a class="links" href="<?php echo $urlgithub;?>" target="_blank"><?= $github;?></a></br>
+                    <a class="links" href="<?php echo $urlmedium;?>" target="_blank"><?= $medium;?></a></br>
+                    <a class="links" href="<?php echo $urltwitter;?>" target="_blank"><?= $twitter;?></a></br>
                     </p>
             </div>
             <div class="col-lg-2 mt-lg-3"">
                 <p>
-                    <a class="links"  href="<?php echo $urldevdiscord;?>"><?= $devdiscord;?></a></br>
-                    <a class="links" href="<?php echo $urltelegram;?>"><?= $telegram;?></a></br>
-                    <a class="links" href="<?php echo $urlyoutube;?>"><?= $youtube;?></a></br>
-                    <a class="links" href="<?php echo $urldevforum;?>"><?= $devforum;?></a></br>
+                    <a class="links"  href="<?php echo $urldevdiscord;?>" target="_blank"><?= $devdiscord;?></a></br>
+                    <a class="links" href="<?php echo $urltelegram;?>" target="_blank"><?= $telegram;?></a></br>
+                    <a class="links" href="<?php echo $urlyoutube;?>" target="_blank"><?= $youtube;?></a></br>
+                    <a class="links" href="<?php echo $urldevforum;?>" target="_blank"><?= $devforum;?></a></br>
                 </p>
             </div>
             <div class="col-lg-2 mt-lg-3"">
                 <p>
-                    <a class="links" href="<?php echo $urllinkedin;?>"><?= $linkedin;?></a></br>
-                    <a class="links" href="<?php echo $urlreddit;?>"><?= $reddit;?></a></br>
-                    <a class="links" href="<?php echo $urlfacebook;?>"><?= $facebook;?></a></br>
+                    <a class="links" href="<?php echo $urllinkedin;?>" target="_blank"><?= $linkedin;?></a></br>
+                    <a class="links" href="<?php echo $urlreddit;?>" target="_blank"><?= $reddit;?></a></br>
+                    <a class="links" href="<?php echo $urlfacebook;?>" target="_blank"><?= $facebook;?></a></br>
                 </p>
             </div>
             <!--MENÚ-->
