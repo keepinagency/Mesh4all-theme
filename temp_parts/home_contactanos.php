@@ -45,8 +45,8 @@
                     <textarea name="textarea" rows="5" cols="20" class="form-control mb-lg-3" id="mensaje" style="border-radius: 10px;"></textarea>
                 </div>
                 <div class="d-lg-flex justify-content-lg-end">
-                    <!--button type="submit" class="btn btn-primary">Enviar</button-->
-                    <button type="submit" class="btn w-25 btn-submit">Enviar</button>
+                    <!--button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn w-25 btn-submit">Enviar</button-->
                 </div>
                 
             </div>      
