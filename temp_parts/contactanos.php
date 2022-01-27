@@ -1,9 +1,28 @@
-<!--?php
+<?php
+
+    $uri = $_SERVER['REQUEST_URI']; // $uri == example.com/sub
+    $exploded_uri = explode('/', $uri); //$exploded_uri == array('example.com','sub')
+    $domain_name = $exploded_uri[1]; //$domain_name = 'example.com'
+
+    $server = ( isset($_SERVER['HTTPS']) ? 'https' : 'http' ). "://" . $_SERVER['SERVER_NAME'];
+    $port   = ( !empty($_SERVER['SERVER_PORT']) ? ':'.$_SERVER['SERVER_PORT'] : '' );
+
+    $pos_v  = strpos($_SERVER['REQUEST_URI'],"v");
+    $pos_sl = strpos($_SERVER['REQUEST_URI'],"v",$pos_v);
+    $vers   = ( $pos_v > 0 ? substr($_SERVER['REQUEST_URI'],$pos_v,6) : '' );
+
+    /*if ($vers){
+        $base_url = $server.$port.'/'.$domain_name.'/'.$vers.'/index.php?solicitudmasinfo=1';
+    }else{*/
+        //$base_url = $server.$port.'/'.$domain_name.'/index.php?solicitudmasinfo=1';
+    //}
+    $base_url = $server.$port.'/';
+
 
     //$from = "kmestizo@gmail.com";
-    $from = $_POST['correo'];
-    $to = "kmestizo@gmail.com";
-	//$to = "kmestizo@gmail.com";
+    $from = $_POST['email'];
+    //$to = "kmestizo@gmail.com";
+	$to = "kmestizo@gmail.com";
     $subject = "Mesh4all.com - Email de contáctanos";
 
     
@@ -17,7 +36,7 @@
                     Nueva solicitud de más información desde www.mesh4all.com:<br><br>
 
                     
-                    Correo: <b>".$_POST['correo']."</b><br><br><br><br>
+                    Correo: <b>".$_POST['email']."</b><br><br><br><br>
 
                     www.mesh4all.com <br>
                     (by <a href='mesh4all.com'>mesh4all.com</a>)
@@ -29,11 +48,11 @@
     $headers .= "From:" . $from;
     mail($to,$subject,$message, $headers);
     //echo "The email message was sent.";
-    //header("Location: ".$base_url, true, 301);
+    header("Location: ".$base_url, true, 301);
     exit();
-?-->
+?>
 
-<?php
+<!--?php
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     $from = "test@hostinger-tutorials.com";
@@ -43,4 +62,4 @@
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
     echo "The email message was sent.";
-?>
+?-->
