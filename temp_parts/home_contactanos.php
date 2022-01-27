@@ -9,10 +9,10 @@
             <h1>CONTÁCTANOS</h1>
         </div>
         <div class="mb-lg-3">
-            <p>C/ wisi enim ad minim veniam, 23 </br>23654</p>
+            <p>Delaware City, Delaware, EE. UU.</br></p>
         </div>
         <iframe class="col-12" 
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30493167.385562003!2d-87.76528053486774!3d21.100184828668755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svenezuela!5e0!3m2!1ses-419!2sve!4v1639670629018!5m2!1ses-419!2sve" 
+            src="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1I1yuSD3mrM5NuBGRFAKGkGu9VTM&ll=39.57956300000001%2C-75.587482&z=17" 
             width="400" height="300" style="border:0; border-radius: 2px;" allowfullscreen="" loading="lazy">
         </iframe>
     </div>
