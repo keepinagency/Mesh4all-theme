@@ -180,6 +180,7 @@ Unete
 }
 
 .linkContent{
+  font-family: 'Gotham-Bold';
   font-weight: bolder;
   color:#ddd;
   text-decoration: none;
@@ -197,7 +198,7 @@ Unete
 */
 .content-services p{
   line-height: 1.8vw;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .btn-vermas-serv{

@@ -21,7 +21,7 @@ if (isset($_POST['mensaje'])){
     echo "Por favor debe colocar un mensaje" . "<br>";
 }
     $from = $_POST['email'];
-    $to = "kmestizo@gmail.com";
+    $to = "contact@mesh4all.org";
     $subject = "Mesh4all.com - Email de contáctanos";
     $message =" <html>
         <head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
@@ -29,12 +29,12 @@ if (isset($_POST['mensaje'])){
         </head>
         <body>
 
-            Nueva solicitud de más información desde formulario de contáctanos en www.mesh4all.com
+            Nueva solicitud de más información desde formulario de contáctanos en www.mesh4all.com<br><br>
             
-            Solicitud de: <b>".$from."</b><br><br>
-            Ciudad: <b>".$ciudad."</b><br><br>
-            País: <b>".$pais."</b><br><br>
-            Mensaje: <b>".$mensaje."</b><br><br>
+            Solicitud de: <b>".$from."</b><br>
+            Ciudad: <b>".$ciudad."</b><br>
+            País: <b>".$pais."</b><br>
+            Mensaje: <b>".$mensaje."</b><br>
 
             www.mesh4all.com <br>
             (by <a href='mesh4all.com'>mesh4all.com</a>)

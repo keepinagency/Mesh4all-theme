@@ -57,7 +57,10 @@
                             }
                         ?>
                     </a>
-                <p> <?php echo $email; ?> </br>
+                <p> <?php if (empty($email)) 
+                        { echo "contact@mesh4all.org"; }
+                        else{ 
+                            echo $email;} ?>
                     <!--?php echo $phonep; ?></br-->
                     <!--?php echo $phones; ?></br-->
                 </p>
