@@ -5,16 +5,17 @@ $var = new WP_Query(array(
     'category_name' => 'soft-free',
     ));
 ?>
-<section class="row soft-free mb-lg-5 p-0 m-0" style="z-index:1;" id="soft-free">
+<section class="row soft-free mt-lg-5 mb-lg-5 p-0 m-0" style="z-index:1;" id="soft-free">
   <img src="<?php echo get_template_directory_uri() . '/img/SF-yellowmovil-wave.png'; ?>" alt="Mesh4All" 
                 class="p-0 m-0" id="imgbg_soft"
                 style="z-index:1; height:auto; max-width:100%; position:absolute;">
   <div class="ratio ratio-16x9 " style="z-index:2;">
-    <div class="col-lg-12 row p-0 m-0 h-25 ">
+
+    <div class="col-lg-12 row p-0 m-0 h-25 mb-lg-5 pb-lg-5">
         <div class="col-1">
             &nbsp;
         </div>
-        <div class="col-11 d-flex align-items-center ">
+        <div class="col-11 d-flex align-items-center">
           <h3 class="text-uppercase">soft-free</h3>
         </div>
     </div>
@@ -24,7 +25,7 @@ $var = new WP_Query(array(
             <!--img src="<?php echo get_template_directory_uri() . '/img/móvil.png'; ?>"-->
             &nbsp;
         </div>
-        <div class="col-lg-6 mt-lg-5 mb-lg-5 pb-lg-5">
+        <div class="col-lg-6 my-lg-5 py-lg-5">
           <div class="col-lg-12 p-lg-0 m-lg-0">
             <div class="row p-lg-0 m-lg-0">
 
@@ -84,26 +85,26 @@ $var = new WP_Query(array(
               <p>Acompáñanos y participa, te necesitamos para ayudarnos a construir el mesh de nuestros sueños. Hay muchas maneras de ayudar.</br></br>
               </p>
             </div>
-            <div class="col-12 d-flex flex-row div-linktextb">
-                <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#blue_soft').click();" href="#blue_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#purple_soft').click();" href="#purple_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#orange_soft').click();" href="#orange_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-                <a class="linktextb" onclick="jQuery('#red_soft').click();" href="#red_soft">
-                  <div class="circle">&nbsp;</div>
-                </a>
-              </div>
+            <!--div class="col-12 d-flex flex-row div-linktextb">
+              <a class="linktextb" onclick="jQuery('#yellow_soft').click();" href="#yellow_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#blue_soft').click();" href="#blue_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#green_soft').click();" href="#green_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#purple_soft').click();" href="#purple_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#orange_soft').click();" href="#orange_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+              <a class="linktextb" onclick="jQuery('#red_soft').click();" href="#red_soft">
+                <div class="circle">&nbsp;</div>
+              </a>
+            </div-->
           </div>
         </div>
     </div>
