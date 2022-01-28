@@ -1,6 +1,5 @@
 <?php 
 /*** Plantilla para el home CONTÁCTANOS***/    
-   
 ?>
 <section class="seccontacto row justify-content-lg-center mb-lg-5 p-lg-0 m-lg-0" id="contactanos">
     
@@ -17,32 +16,43 @@
         </iframe>
     </div>
     <div class="col-lg-5 text-light mt-lg-5">
-        <form method="POST" action="<?php echo get_template_directory_uri().'/temp_parts/contactanos.php'; ?>" validate>
+        <form action="<?php echo get_template_directory_uri().'/temp_parts/contactanos.php'; ?>" method="post">
         
             <div class="row">
                
                 <div class="form-group col-lg-12 mt-lg-3">
-                    <label for="email" class="mb-lg-3">EMAIL:</label>
-                    <input type="text" class="form-control mb-lg-3" id="email" name="email" style="border-radius: 10px;">
+                    <label class="mb-lg-3">EMAIL:</label>
+                    <input type="text" class="form-control mb-lg-3" name="email" id="email" style="border-radius: 10px;" required>
                 </div>
                 <div class="form-group col-lg-6 mt-lg-3">
-                    <label for="ciud" class="mb-lg-3">CIUDAD:</label>
-                    <input type="text" class="form-control mb-lg-3" id="ciudad" name="ciudad" style="border-radius: 10px;">
+                    <label class="mb-lg-3">CIUDAD:</label>
+                    <input type="text" class="form-control mb-lg-3" name="ciudad" id="ciudad" style="border-radius: 10px;" required>
                 </div>
                 <div class="form-group col-lg-6 mt-lg-3">
-                    <label for="pais" class="mb-lg-3">PAÍS:</label>
-                    <input type="text" class="form-control mb-lg-3" id="pais" name="pais" style="border-radius: 10px;">
+                    <label class="mb-lg-3">PAÍS:</label>
+                    <input type="text" class="form-control mb-lg-3" name="pais" id="pais" style="border-radius: 10px;" required>
                 </div>
                 <div class="form-group col-lg-12 mt-lg-3">
-                    <label for="mensaje" class="mb-lg-3">MENSAJE:</label>
-                    <textarea name="textarea" rows="5" cols="20" class="form-control mb-lg-3" id="mensaje" style="border-radius: 10px;"></textarea>
+                    <label class="mb-lg-3">MENSAJE:</label>
+                    <textarea rows="5" cols="20" class="form-control mb-lg-3" name="mensaje" id="mensaje" style="border-radius: 10px;" required></textarea>
                 </div>
                 <div class="d-lg-flex justify-content-lg-end">
-                    <!--button type="submit" class="btn btn-primary">Enviar</button-->
-                    <button type="submit" class="btn w-25 btn-submit">Enviar</button>
+                    <button type="submit" class="btn w-25 btn-submit" onclick="vacioFunc()">Enviar</button>
                 </div>
                 
             </div>      
         </form>
     </div>
 </section>
+<script>
+  function vacioFunc() {
+    var email = document.getElementById("email").value; 
+    var ciudad = document.getElementsByName("ciudad")[0].value;
+    var pais = document.getElementsByName("pais")[0].value;
+    var mensaje = document.getElementsByName("mensaje")[0].value;
+    if ( !(email == "" || ciudad == "" || pais == "" || mensaje == "") ){
+        alert("Correo enviado con exito, Gracias por contactarnos...");
+    return true;
+}
+  }
+</script>
