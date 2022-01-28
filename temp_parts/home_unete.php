@@ -29,6 +29,7 @@ p-lg-0 p-lg-3
                         echo "ÚNETE A <br> LA RED MESH";
                     } ?>
                 </div>
+                <!--
                 <div class="cta-unete col-lg-12 p-0 m-0  "> 
                     <a href="<?php $urlbtn; ?>" >
                         <a type="button" class="btn-unete btn btn-light w-25" href="<?=$urlbtn;?>">
@@ -36,6 +37,7 @@ p-lg-0 p-lg-3
                         </a> 
                     </a>
                 </div>
+                -->
             </div>
             <div class="col-lg-4 p-0 m-0">
                 &nbsp;
