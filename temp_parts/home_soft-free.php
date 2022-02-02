@@ -25,8 +25,55 @@ $var = new WP_Query(array(
             <!--img src="<?php echo get_template_directory_uri() . '/img/móvil.png'; ?>"-->
             &nbsp;
         </div>
+        
         <div class="col-lg-6 my-lg-5 py-lg-5">
           <div class="col-lg-12 p-lg-0 m-lg-0">
+            <!--?php 
+        
+        if ($var->have_posts()){
+            
+            while($var->have_posts()) : $var->the_post(); 
+                $active = "";
+                if ($i ==0){
+                    $active = "active";
+                } ?>
+                <div class="carousel-item col-12 <?=$active?> h-100 p-0 m-0">
+                    <div class="row h-100">
+                        <div class="col-6">
+                            <div class="col-12 row p-0 m-0  w-100 h-25">
+                                &nbsp;
+                            </div>
+                            <div class="col-12 row  p-0 m-0  
+                                        d-flex align-items-center justify-content-center">
+                                <?php
+                                    $img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
+                                ?>
+                                <img class="d-block w-50" 
+                                    src="<?= $img_url?>" 
+                                    alt="Mesh4All Control">
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 m-0 ">
+                            <div class="col-12 row h-25 p-0 m-0">
+                                &nbsp;
+                            </div>
+                            <div class="col-12 h-100">
+                                <div class="col-9 content-services">
+                                    <?php the_content(); ?>
+                                </div>
+                                <div class="col-2">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--?php 
+                $i++; 
+            endwhile; 
+            wp_reset_postdata();
+        }else{
+            ?-->
             <div class="row p-lg-0 m-lg-0">
 
               <div class="linktext pagos" onclick="clicklnk(this.id);" role="button"
